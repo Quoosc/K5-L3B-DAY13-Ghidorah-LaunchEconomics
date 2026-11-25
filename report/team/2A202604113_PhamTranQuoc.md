@@ -42,7 +42,9 @@ Các số trên là kết quả của nhóm. Đề xuất hiện tại là **No-
 
 ## 5. Công cụ AI đã dùng
 
-Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiếu trắng, bản nháp hồ sơ và gợi ý tự đánh giá, phân tích tham khảo 20 ca, đối chiếu với phiếu Dũng, viết phần tính D1/E1 và chạy lại số liệu. Quốc đã rà lại hồ sơ và kiểm tra 20 nhãn ghi trên phiếu xác nhận.
+Quốc phụ trách chính việc điều phối và bàn giao. Quốc trực tiếp rà hồ sơ, kiểm tra 20 mã trên phiếu xác nhận CP3 và xác nhận 20 nhãn trong [phiếu luyện tập](../../docs/CP3_phieu_luyen_tap_20_ca_moi.md).
+
+Codex là công cụ hỗ trợ soạn phiếu và dự thảo hồ sơ, đề xuất nhãn tham khảo, đối chiếu với phiếu Dũng, viết phần tính D1/E1 và chạy lại số liệu.
 
 ## 6. Tự đánh giá
 
