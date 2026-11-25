@@ -4,7 +4,7 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 
 - Nhóm chấm (hội đồng): Ghidorah, L3B
 - Nhóm được chấm: ToiYeuVinFast
-- Đánh giá tổng quan: **9/10** (điểm do Quốc cung cấp, ghi riêng với tổng rubric 30 điểm).
+- Đánh giá tổng quan: **9/10**.
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
