@@ -2,7 +2,7 @@
 
 20 ca lỗi nằm trong `docs/Ngay13_Lab13_De_bai_hoc_vien.docx`. Năm loại theo Google PAIR: **Do người dùng · Hệ thống · Ngữ cảnh · Giới hạn hệ thống · Ngầm**. Gắn nhãn theo nguyên nhân gốc, không theo chỗ cần sửa.
 
-## Kết quả Quốc xác nhận theo mã ca
+## Đối chiếu tham khảo theo mã ca 01–20
 
 Phạm Trấn Quốc đã rà soát và xác nhận các nhãn dựa trên bảng tham khảo. Bảng dưới ghép [phiếu Quốc xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md) với [phiếu gốc của Dũng](../../docs/CP3_phieu_TranAnhDung.md) theo mã 01–20.
 

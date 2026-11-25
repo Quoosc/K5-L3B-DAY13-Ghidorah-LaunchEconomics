@@ -6,7 +6,7 @@
 
 - Họ tên: Phạm Trấn Quốc
 - MSSV: 2A202604113
-- Email: Chưa cung cấp
+- Email: phamquoc896@gmail.com
 - Nhóm: Ghidorah, lớp L3B
 - Vai trò: Trưởng nhóm và Người gắn nhãn 1
 
@@ -37,7 +37,7 @@ Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `g
 
 Các số trên là kết quả của nhóm. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
-**Đối chiếu CP3.** [Phiếu xác nhận của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) ghi đủ 20 nhãn từ bảng tham khảo theo xác nhận của Quốc. Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với bộ nhãn này. Tỉ lệ đồng thuận độc lập vẫn chờ bộ nhãn gốc của Quốc. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
+**Đối chiếu CP3.** [Phiếu xác nhận của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) ghi đủ 20 nhãn từ bảng tham khảo theo xác nhận của Quốc. Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với bộ nhãn này. Bằng chứng đối chiếu theo mã nằm ở commit `9c02779`. Kiểm tra thư mục lab, các nhánh Git và stash chưa tìm thấy phiếu Quốc lập trước khi xem tham khảo. Tiêu chí độc lập chờ hướng dẫn của giảng viên. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
 
 ## 5. Công cụ AI đã dùng
 
@@ -54,7 +54,7 @@ Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiế
 | Trước CP3 | Đọc mục “Hai mươi ca lỗi” trong [đề bài](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) và ghi riêng 20 nhãn trong 8 phút. | Có phiếu xác nhận từ nhãn tham khảo. Chưa có bộ nhãn độc lập của Quốc. |
 | Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Quốc đã kiểm tra và xác nhận đủ 20 mã. Đã đối chiếu hai tài liệu, 20/20 mã trùng. Chưa có số đo đồng thuận độc lập. |
 | Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. A/B đã đối chiếu. Hồ sơ hiện đề xuất No-go và đang chờ kết quả duyệt chéo. |
-| Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã có khung sáu mục và khai báo công cụ ở mục 5. |
+| Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã điền email, dẫn chứng commit, khai báo công cụ và tự đánh giá. |
 | Khi nhóm chốt bài | Với vai trò trưởng nhóm, rà danh sách tệp và xác nhận commit nhóm đã đẩy lên GitHub. Dùng tài khoản cá nhân của Quốc nộp link repo lên LMS. | Chưa xác nhận bài nhóm đã chốt hoặc Quốc đã nộp LMS. |
 
 Chi tiết từng checkpoint và yêu cầu nộp nằm trong [CHECKPOINTS.md](../../CHECKPOINTS.md) và [SUBMISSION.md](../../SUBMISSION.md).
