@@ -15,8 +15,8 @@
 | --: | --------------------- | ----------- | -------------------------- | ------------- | ----------------------------------------------- |
 |   1 | Phạm Trấn Quốc        | 2A202604113 | Chưa cập nhật              | Quoosc        | Người gắn nhãn 1; trưởng nhóm                   |
 |   2 | Trương Văn Phong      | 2A202604091 | 26ai.phongtv@vinuni.edu.vn | vanphong205   | Người viết code ở nửa đầu buổi                  |
-|   3 | Nguyễn Quốc Quang Anh | 2A202604120 | nguyenquocquanganh28@gmail.com | QuangAnh28 | Người kiểm số; nhận phần viết code sau giải lao |
-|   4 | Trần Anh Dũng         | 2A202604037 | Chưa cập nhật              | Chưa cập nhật | Người gắn nhãn 2, kiêm giữ hồ sơ                |
+|   3 | Nguyễn Quốc Quang Anh | 2A202604120 | nguyenquocquanganh28@gmail.com | QuangAnh28    | Người kiểm số; nhận phần viết code sau giải lao |
+|   4 | Trần Anh Dũng         | 2A202604037 | dungkidx01@gmail.com           | tad-4963      | Người gắn nhãn 2, kiêm giữ hồ sơ                |
 
 ### Phạm vi công việc theo vai
 
@@ -64,4 +64,4 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Điền dần `report/team/ho_so_launch_v0.md`; gắn nhãn độc lập 20 ca ở CP3; phối hợp hoàn thiện bảng lỗi và hồ sơ cuối.
 
-**Bằng chứng cần ghi:** Bộ nhãn người 2 trong `report/team/bang_loi.md`; các mục/commit đã điền trong hồ sơ; công cụ AI đã dùng và cách tự kiểm tra (nếu có).
+**Tiến độ và bằng chứng:** Đã hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi tại [CP3_phieu_TranAnhDung.md](docs/CP3_phieu_TranAnhDung.md) (commit `97505fa`), cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md), phần rủi ro E2 trong [chỉ số](report/team/chi_so.md) và lập [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md). Đang chờ bộ nhãn độc lập của Quốc để đối chiếu CP3 vào [bảng lỗi](report/team/bang_loi.md) và chốt hồ sơ trước 17:00.

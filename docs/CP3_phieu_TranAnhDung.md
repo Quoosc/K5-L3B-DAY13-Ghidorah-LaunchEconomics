@@ -1,6 +1,6 @@
 # Phiếu gắn nhãn độc lập · CP3
 
-Họ tên: ____________________
+Họ tên: Trần Anh Dũng
 
 Mỗi người dùng một bản riêng. Trong 8 phút, đọc theo thứ tự và ghi một trong năm nhãn cho mỗi ca theo nguyên nhân gốc. Làm độc lập, không trao đổi và giữ riêng kết quả cho đến khi cả hai hoàn tất. Sau đó gửi đủ 20 cặp mã ca và nhãn cho người điều phối.
 
