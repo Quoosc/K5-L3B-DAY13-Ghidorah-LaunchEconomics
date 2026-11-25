@@ -2,7 +2,7 @@
 
 Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo bằng chứng trong hồ sơ, không theo cách trình bày: một đề xuất No-go có lý do bằng số được điểm cao hơn một đề xuất Go bỏ qua con số bất lợi.
 
-- Nhóm chấm (hội đồng): ...
+- Nhóm chấm (hội đồng): Ghidorah, L3B
 - Nhóm được chấm: ...
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
@@ -12,10 +12,10 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 | Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | ... | ... |
 | **Tổng** | | | | **... / 30** | |
 
-**Quyết định của hội đồng:** Go · Go có điều kiện · No-go (giữ một)
+**Quyết định của hội đồng:** Chờ buổi duyệt. Chọn Go, Go có điều kiện hoặc No-go sau khi chấm.
 
 **Lý do:** ...
 
-**Một câu hỏi cho đội trình:** ...
+**Câu hỏi chuẩn bị cho đội trình:** Nhóm cần bao nhiêu yêu cầu hiệu dụng ở mỗi nhánh sau khi tính đến cách chia cụm, và sẽ xử lý thế nào nếu thu không đủ mẫu?
 
 **Câu trả lời của đội trình (ghi lại tại buổi):** ...

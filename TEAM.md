@@ -20,11 +20,15 @@
 
 ### Phạm vi công việc theo vai
 
-- **Phạm Trấn Quốc — người gắn nhãn 1:** đọc yêu cầu và tiêu chí hoàn thành; độc lập gắn nhãn 20 ca lỗi ở CP3 trước khi trao đổi với người gắn nhãn 2; sau đó cùng đối chiếu nhãn và hoàn thiện bảng lỗi.
-- **Trương Văn Phong — người viết code nửa đầu buổi:** cài/chạy chương trình; hoàn thiện phần A và B trong `src/lab13.py`, đối chiếu kết quả và điền phần tương ứng trong `report/team/bang_chi_phi.md`.
-- **Nguyễn Quốc Quang Anh — người kiểm số, rồi nhận phần code sau giải lao:** tính tay ít nhất một con số chi phí để đối chiếu; rà bảng A/B. Sau giải lao, tiếp nhận `src/lab13.py` từ Phong để hoàn thiện hoặc chạy lại phần cần thiết, giúp có ít nhất hai thành viên tự tính được chi phí.
-- **Trần Anh Dũng — người gắn nhãn 2, kiêm giữ hồ sơ:** điền dần `report/team/ho_so_launch_v0.md` từ đầu buổi; độc lập gắn nhãn 20 ca lỗi ở CP3; cùng Quốc đối chiếu và hoàn thiện `report/team/bang_loi.md`.
-- **Cả nhóm:** cùng thống nhất và hoàn thiện `report/team/pilot_plan.yaml`, `report/team/chi_so.md`, `report/team/phieu_cham.md`, `report/team/group_report.md`; mỗi người tự tạo báo cáo cá nhân. Các quyết định và con số phải có người phụ trách, bằng chứng và nhãn `simulated` khi lấy từ cột `_simulated`.
+- **Phạm Trấn Quốc — người gắn nhãn 1:** mở [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), tạo một bản riêng và ghi đủ 20 nhãn trong 8 phút. Khi cả hai đã hoàn tất, nhận bộ nhãn gốc của Dũng, đối chiếu và lưu kết quả trong [bảng lỗi](report/team/bang_loi.md). Ghi đóng góp thực tế và bằng chứng vào [báo cáo cá nhân](report/team/2A202604113_PhamTranQuoc.md).
+- **Trần Anh Dũng — người gắn nhãn 2, kiêm giữ hồ sơ:** mở cùng [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md) nhưng làm trên bản riêng trong 8 phút. Khi cả hai đã hoàn tất, gửi Quốc đủ 20 cặp mã ca và nhãn để đối chiếu. Cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md) khi có bằng chứng.
+- **Trương Văn Phong — người viết code A/B:** mở [lab13.py](src/lab13.py#L20). Bắt đầu ở `TODO CP1` với `so_lan_chay_ky_vong()` và hai hàm A1 còn lại, rồi làm A2–A4 và `TODO CP2` cho B. Chạy `python lab13.py` từ `src/`, điền [bảng chi phí](report/team/bang_chi_phi.md) và bàn giao commit cùng log chạy cho Quang Anh.
+- **Nguyễn Quốc Quang Anh — người kiểm số và nhận code:** mở [bảng chi phí](report/team/bang_chi_phi.md) và [công thức](docs/du_lieu_va_cong_thuc.md). Tính tay ít nhất một số A/B, ghi công thức, đầu vào và kết quả vào báo cáo cá nhân. Đối chiếu với bảng và log của Phong, sau đó nhận [code A/B](src/lab13.py) và chạy lại trên máy của mình.
+- **Cả nhóm:** cùng hoàn thiện [pilot](report/team/pilot_plan.yaml), [chỉ số](report/team/chi_so.md), [phiếu duyệt chéo](report/team/phieu_cham.md) và [báo cáo nhóm](report/team/group_report.md). Gắn nhãn `simulated` cho mọi số dùng cột `_simulated`.
+
+Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
+
+**Trạng thái bàn giao:** D1/E1 chạy được riêng. Luồng chính hiện dừng ở phép thử A1 đầu tiên với `NotImplementedError` tại `so_lan_chay_ky_vong()`. Hai bộ nhãn, đóng góp cá nhân của Quốc, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ bằng chứng.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -36,7 +40,7 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Bằng chứng cần ghi:** Bộ nhãn người 1 trong `report/team/bang_loi.md`; các mục/commit do mình thực hiện; công cụ AI đã dùng và cách tự kiểm tra (nếu có).
+**Tiến độ và bằng chứng:** Đã có [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), phần tham khảo, kết quả D1/E1 và bản dự thảo hồ sơ nhóm do Sol (Codex) hỗ trợ. Còn chờ hai bộ nhãn độc lập và phần đối chiếu. Xem [danh sách việc của Quốc](report/team/2A202604113_PhamTranQuoc.md#danh-sách-việc-của-quốc).
 
 ### Trương Văn Phong — 2A202604091
 
