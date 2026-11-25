@@ -1,10 +1,12 @@
 """Lab 13 · Định giá agent và lập kế hoạch pilot (Gate 2a) — bài làm của nhóm (file nộp).
 Chạy trong thư mục src/: python3 lab13.py   (cần pandas; Nhiệm vụ D cần thêm statsmodels)
 Không cần khoá API. Dữ liệu trong hai file CSV là giả lập.
-Phần A và B đã hoàn thiện; phần D1 còn TODO CP4 cho người viết sau giải lao.
+Phần A, B đã hoàn thiện; phần D1 và E1 có sẵn hàm tính để đối chiếu.
 Bản gốc chưa sửa nằm ở lab13_starter.py.
 """
 import math
+from statistics import NormalDist
+
 import pandas as pd
 
 # Bảng giá GIẢ ĐỊNH của lab (không phải giá thật của nhà cung cấp nào)
@@ -250,9 +252,54 @@ def _in_b4(runs, reqs):
               f'mỗi lần xem lại <= {hoa_von:.1f} phút')
 
 
+# ---------- Nhiệm vụ D1 · Cỡ mẫu pilot ----------
+def co_mau_moi_nhom(p1, p2, alpha=0.05, power=0.8):
+    """Cỡ mẫu mỗi nhánh cho phép so sánh hai tỉ lệ độc lập."""
+    normal = NormalDist()
+    trung_binh = (p1 + p2) / 2
+    z_alpha = normal.inv_cdf(1 - alpha / 2)
+    z_power = normal.inv_cdf(power)
+    sai_so_gop = math.sqrt(2 * trung_binh * (1 - trung_binh))
+    sai_so_rieng = math.sqrt(p1 * (1 - p1) + p2 * (1 - p2))
+    return math.ceil(((z_alpha * sai_so_gop + z_power * sai_so_rieng) / (p2 - p1)) ** 2)
+
+
+def co_mau_pilot():
+    """Trả về kết quả năm câu D1 theo giả định của đề."""
+    icc = 0.02
+    theo_yeu_cau = co_mau_moi_nhom(0.70, 0.75)
+    he_so_75 = 1 + (75 - 1) * icc
+    theo_nhan_vien = math.ceil(theo_yeu_cau * he_so_75)
+    muc_tieu_6_diem = co_mau_moi_nhom(0.70, 0.76)
+    moi_nhan_vien = math.ceil(muc_tieu_6_diem * (1 - icc) / (20 - muc_tieu_6_diem * icc))
+    he_so_6_diem = 1 + (moi_nhan_vien - 1) * icc
+    return {
+        'a': theo_yeu_cau,
+        'b': (he_so_75, theo_nhan_vien, math.ceil(theo_nhan_vien / 75)),
+        'c': int(20 / icc),
+        'd': int(6 / icc),
+        'e': (muc_tieu_6_diem, moi_nhan_vien, round(he_so_6_diem, 2)),
+    }
+
+
+# ---------- Nhiệm vụ E1 · Chỉ số đợt chạy thử ----------
+def chi_so_pilot(reqs):
+    """Đếm tử số và mẫu số cho E1 và tỷ lệ mở lại trong phạm vi D."""
+    xem_lai = reqs.loc[reqs['duoc_xem_lai'].eq(1)]
+    mo_lai = reqs['mo_lai_trong_7_ngay'].eq(1)
+    trong_pham_vi = reqs['loai'].isin(['noi_dia', 'hang_nang'])
+    return {
+        'chinh': (int((reqs['dong_trong_24h'].eq(1) & ~mo_lai).sum()), len(reqs)),
+        'bo_qua': (int(xem_lai['quyet_dinh_xem_lai'].isin(['sua', 'bo']).sum()), len(xem_lai)),
+        'mo_lai': (int(mo_lai.sum()), len(reqs)),
+        'mo_lai_trong_pham_vi': (int((mo_lai & trong_pham_vi).sum()), int(trong_pham_vi.sum())),
+    }
+
+
 if __name__ == '__main__':
     runs = pd.read_csv('logix_runs.csv')
     reqs = pd.read_csv('logix_requests.csv', keep_default_na=False)
+
     kiem_tra_dap_an_biet_truoc()
     ket_qua = mo_hinh(runs, reqs)
     _in_a2(ket_qua)
@@ -261,6 +308,6 @@ if __name__ == '__main__':
     _in_b1_b2(runs, reqs)
     _in_b3(runs, reqs)
     _in_b4(runs, reqs)
-    # TODO CP4 · Nhiệm vụ D: cỡ mẫu.
-    #   from statsmodels.stats.proportion import proportion_effectsize
-    #   from statsmodels.stats.power import NormalIndPower
+
+    print('\nD1 · Cỡ mẫu pilot:', co_mau_pilot())
+    print('E1 · Chỉ số đợt chạy thử (tử số, mẫu số):', chi_so_pilot(reqs))
