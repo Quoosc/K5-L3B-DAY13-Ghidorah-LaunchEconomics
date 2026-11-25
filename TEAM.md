@@ -11,12 +11,12 @@
 
 ## Thành viên và phân công
 
-| STT | Họ tên | MSSV | Email | GitHub | Vai trò |
-| --: | ------ | ---- | ----- | ------ | ------- |
-| 1 | Phạm Trấn Quốc | 2A202604113 | Chưa cập nhật | Quoosc | Người gắn nhãn 1; trưởng nhóm |
-| 2 | Trương Văn Phong | 2A202604091 | Chưa cập nhật | Chưa cập nhật | Người viết code ở nửa đầu buổi |
-| 3 | Nguyễn Quốc Quang Anh | 2A202604120 | Chưa cập nhật | Chưa cập nhật | Người kiểm số; nhận phần viết code sau giải lao |
-| 4 | Trần Anh Dũng | 2A202604037 | Chưa cập nhật | Chưa cập nhật | Người gắn nhãn 2, kiêm giữ hồ sơ |
+| STT | Họ tên                | MSSV        | Email                      | GitHub        | Vai trò                                         |
+| --: | --------------------- | ----------- | -------------------------- | ------------- | ----------------------------------------------- |
+|   1 | Phạm Trấn Quốc        | 2A202604113 | Chưa cập nhật              | Quoosc        | Người gắn nhãn 1; trưởng nhóm                   |
+|   2 | Trương Văn Phong      | 2A202604091 | 26ai.phongtv@vinuni.edu.vn | vanphong205   | Người viết code ở nửa đầu buổi                  |
+|   3 | Nguyễn Quốc Quang Anh | 2A202604120 |                            |               | Người kiểm số; nhận phần viết code sau giải lao |
+|   4 | Trần Anh Dũng         | 2A202604037 | Chưa cập nhật              | Chưa cập nhật | Người gắn nhãn 2, kiêm giữ hồ sơ                |
 
 ### Phạm vi công việc theo vai
 
