@@ -1,8 +1,8 @@
-# CP3 · Phiếu do Codex lập theo ủy quyền của Phạm Trấn Quốc
+# CP3 · Bảng đối chiếu tham khảo
 
-Ghidorah · 20 ca. Codex dùng lại phân tích tham khảo đã lưu trong [bảng lỗi](../report/team/bang_loi.md) và ghép với [phiếu gốc của Dũng](CP3_phieu_TranAnhDung.md) theo mã ca. Tại thời điểm lập phiếu, Codex đã xem cả hai nguồn.
+Ghidorah · 20 ca. Bảng so sánh nhãn tham khảo trong [bảng lỗi](../report/team/bang_loi.md#phân-tích-tham-khảo) với [phiếu gốc của Dũng](CP3_phieu_TranAnhDung.md) theo mã ca.
 
-| Ca | Nhãn Codex | Căn cứ phân loại | Nhãn Dũng |
+| Ca | Nhãn tham khảo | Căn cứ phân loại | Nhãn Dũng |
 | ---: | --- | --- | --- |
 | 01 | Do người dùng | Khách nhập thiếu hai chữ số tài khoản. | Do người dùng |
 | 02 | Hệ thống | Trợ lý truyền loại hàng thường cho kiện hàng nặng, dẫn đến hoàn thiếu. | Hệ thống |
@@ -25,4 +25,4 @@ Ghidorah · 20 ca. Codex dùng lại phân tích tham khảo đã lưu trong [b�
 | 19 | Giới hạn hệ thống | Đơn nằm ngoài thời hạn dữ liệu mà trợ lý truy cập được. | Giới hạn hệ thống |
 | 20 | Hệ thống | Thiếu cơ chế chống trùng nên cùng một khoản được hoàn hai lần. | Hệ thống |
 
-**Kết quả đối chiếu tài liệu:** 20/20 mã có cùng nhãn, 0 ca khác nhau. Phiếu này ghi nhận công việc được ủy quyền cho Codex. Điểm đồng thuận giữa hai thành viên cần hai phiếu do từng người lập.
+**Kết quả đối chiếu tài liệu:** 20/20 mã có cùng nhãn, 0 ca khác nhau. Tỉ lệ đồng thuận giữa Quốc và Dũng sẽ được tính từ hai phiếu cá nhân.

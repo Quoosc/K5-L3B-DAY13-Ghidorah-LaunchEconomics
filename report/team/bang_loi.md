@@ -10,28 +10,28 @@ Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến
 
 **Nhận phiếu:** Cột Dũng được chép theo mã ca từ [phiếu gốc](../../docs/CP3_phieu_TranAnhDung.md) tại commit `97505fa`. Dấu — biểu thị ô đang chờ dữ liệu. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
 
-| Ca | Quốc (phiếu cá nhân) | Dũng | Codex (theo ủy quyền) | Dũng–Codex | Nhãn thống nhất Quốc–Dũng |
-| --: | --- | --- | --- | --- | --- |
-| 1 | — | Do người dùng | Do người dùng | Trùng | — |
-| 2 | — | Hệ thống | Hệ thống | Trùng | — |
-| 3 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
-| 4 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
-| 5 | — | Ngầm | Ngầm | Trùng | — |
-| 6 | — | Do người dùng | Do người dùng | Trùng | — |
-| 7 | — | Hệ thống | Hệ thống | Trùng | — |
-| 8 | — | Hệ thống | Hệ thống | Trùng | — |
-| 9 | — | Do người dùng | Do người dùng | Trùng | — |
-| 10 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
-| 11 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
-| 12 | — | Ngầm | Ngầm | Trùng | — |
-| 13 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
-| 14 | — | Do người dùng | Do người dùng | Trùng | — |
-| 15 | — | Hệ thống | Hệ thống | Trùng | — |
-| 16 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
-| 17 | — | Ngầm | Ngầm | Trùng | — |
-| 18 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
-| 19 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
-| 20 | — | Hệ thống | Hệ thống | Trùng | — |
+| Ca | Quốc (phiếu cá nhân) | Dũng (phiếu cá nhân) | Trùng? | Nhãn thống nhất Quốc–Dũng |
+| --: | --- | --- | --- | --- |
+| 1 | — | Do người dùng | — | — |
+| 2 | — | Hệ thống | — | — |
+| 3 | — | Ngữ cảnh | — | — |
+| 4 | — | Giới hạn hệ thống | — | — |
+| 5 | — | Ngầm | — | — |
+| 6 | — | Do người dùng | — | — |
+| 7 | — | Hệ thống | — | — |
+| 8 | — | Hệ thống | — | — |
+| 9 | — | Do người dùng | — | — |
+| 10 | — | Ngữ cảnh | — | — |
+| 11 | — | Giới hạn hệ thống | — | — |
+| 12 | — | Ngầm | — | — |
+| 13 | — | Giới hạn hệ thống | — | — |
+| 14 | — | Do người dùng | — | — |
+| 15 | — | Hệ thống | — | — |
+| 16 | — | Ngữ cảnh | — | — |
+| 17 | — | Ngầm | — | — |
+| 18 | — | Ngữ cảnh | — | — |
+| 19 | — | Giới hạn hệ thống | — | — |
+| 20 | — | Hệ thống | — | — |
 
 **Đồng thuận Quốc–Dũng** chưa tính được vì mới có một phiếu gốc.
 
@@ -47,7 +47,7 @@ Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định 
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
-Năm biện pháp do Codex tổng hợp từ tình huống trong đề để nhóm xem xét khi chốt CP3. Các sự kiện và cách theo dõi dưới đây là đề xuất cho pilot.
+Năm biện pháp đề xuất từ các tình huống trong đề, để nhóm xem xét khi chốt CP3 và chuẩn bị pilot.
 
 | Ca | Loại lỗi | Phát hiện bằng gì | Khắc phục thế nào | Vai trò phụ trách đề xuất |
 | --: | --- | --- | --- | --- |
@@ -65,16 +65,16 @@ Năm biện pháp do Codex tổng hợp từ tình huống trong đề để nh�
 - [ ] Năm ca khắc phục đại diện cho đủ năm loại theo nhãn đã thống nhất. Mỗi dòng có dấu hiệu đo được, cách xử lý và một vai trò chịu trách nhiệm.
 - [ ] Khi có đáp án của giảng viên, đối chiếu nhãn thống nhất với đáp án theo ngưỡng 16/20 của rubric. Đây là phép kiểm tra riêng với tỉ lệ đồng thuận của hai người.
 
-## Phân tích tham khảo của Codex
+## Phân tích tham khảo
 
-Xem [phiếu do Codex lập theo ủy quyền](../../docs/CP3_phieu_uy_quyen_Codex.md) để đối chiếu từng ca với phiếu Dũng.
+Xem [bảng đối chiếu tham khảo](../../docs/CP3_doi_chieu_tham_khao.md) để xem kết quả so sánh từng ca với phiếu Dũng.
 
-Chỉ mở sau khi cả hai đã ghi xong bộ nhãn độc lập. Codex đối chiếu tình huống trong đề với [nhãn tham khảo trong hướng dẫn lab](../../docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md#nhãn-tham-khảo-cho-20-ca). Các nhãn dưới đây phục vụ thảo luận và rà soát sau khi gắn nhãn. Cột nhãn gốc và tỉ lệ đồng thuận sử dụng kết quả thực tế của hai thành viên.
+Chỉ mở sau khi cả hai đã ghi xong bộ nhãn độc lập. Phần này dựa trên tình huống trong đề và [nhãn tham khảo trong hướng dẫn lab](../../docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md#nhãn-tham-khảo-cho-20-ca). Cột nhãn gốc và tỉ lệ đồng thuận sử dụng kết quả thực tế của hai thành viên.
 
 <details>
 <summary>Xem 20 nhãn tham khảo và kết quả đối chiếu với phiếu Dũng</summary>
 
-Đối chiếu theo mã ca giữa phiếu Dũng (commit `97505fa`) và bảng tham khảo của Codex cho kết quả 20/20 ca trùng (100%). Tỉ lệ đồng thuận giữa Quốc và Dũng đang chờ phiếu riêng của Quốc.
+Đối chiếu theo mã ca giữa phiếu Dũng (commit `97505fa`) và bảng tham khảo cho kết quả 20/20 ca trùng (100%). Tỉ lệ đồng thuận giữa Quốc và Dũng đang chờ phiếu riêng của Quốc.
 
 | Ca | Nhãn tham khảo | Lý do |
 | --: | --- | --- |

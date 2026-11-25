@@ -40,7 +40,7 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Tiến độ và bằng chứng:** Đã có [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), phần tham khảo, kết quả D1/E1 và bản dự thảo hồ sơ nhóm do Sol (Codex) hỗ trợ. Dũng đã nộp phiếu riêng. Còn chờ phiếu độc lập của Quốc và phần đối chiếu. Xem [danh sách việc của Quốc](report/team/2A202604113_PhamTranQuoc.md#danh-sách-việc-của-quốc).
+**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao tài liệu và chốt CP3 cùng Dũng. Bản bàn giao gồm [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), kết quả D1/E1 và dự thảo hồ sơ nhóm. Dũng đã nộp phiếu riêng. Còn chờ phiếu độc lập của Quốc và phần đối chiếu. Xem [báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) để biết phần hỗ trợ bằng AI và bằng chứng từng việc.
 
 ### Trương Văn Phong — 2A202604091
 
