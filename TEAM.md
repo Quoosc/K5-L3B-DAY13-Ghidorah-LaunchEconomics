@@ -7,13 +7,13 @@
 - Repo nhóm: `K5-L3B-DAY13-Ghidorah-LaunchEconomics`
 - URL repo: [github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics](https://github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics)
 - Nhánh nộp: `main`
-- Commit chốt: cập nhật mã commit cuối trước khi nộp.
+- Commit chốt: [Bản hồ sơ đã kiểm tra](https://github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics/commit/aac7b68d2988a003f8c9627b337f6dbbc6319a8c).
 
 ## Thành viên và phân công
 
 | STT | Họ tên                | MSSV        | Email                      | GitHub        | Vai trò                                         |
 | --: | --------------------- | ----------- | -------------------------- | ------------- | ----------------------------------------------- |
-|   1 | Phạm Trấn Quốc        | 2A202604113 | Chưa cập nhật              | Quoosc        | Người gắn nhãn 1; trưởng nhóm                   |
+|   1 | Phạm Trấn Quốc        | 2A202604113 | phamquoc896@gmail.com | Quoosc        | Người gắn nhãn 1; trưởng nhóm                   |
 |   2 | Trương Văn Phong      | 2A202604091 | 26ai.phongtv@vinuni.edu.vn | vanphong205   | Người viết code ở nửa đầu buổi                  |
 |   3 | Nguyễn Quốc Quang Anh | 2A202604120 | nguyenquocquanganh28@gmail.com | QuangAnh28    | Người kiểm số; nhận phần viết code sau giải lao |
 |   4 | Trần Anh Dũng         | 2A202604037 | dungkidx01@gmail.com           | tad-4963      | Người gắn nhãn 2, kiêm giữ hồ sơ                |
@@ -28,7 +28,7 @@
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Dũng đã nộp phiếu CP3 ở commit `97505fa`. Còn chờ phiếu độc lập của Quốc, đối chiếu CP3 và kết quả hội đồng. Việc tuyển đủ nhân lực cho pilot và việc nộp LMS chưa được xác nhận.
+**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Dũng đã nộp phiếu CP3 ở commit `97505fa`. Hai phiếu đã đối chiếu tham khảo và khớp 20/20. Chưa tìm thấy phiếu Quốc lập trước khi xem tham khảo trong repo hoặc lịch sử Git. Cần hướng dẫn của giảng viên cho tiêu chí độc lập và kết quả hội đồng cho phần duyệt chéo. Quốc xác nhận đã nộp link repo trên LMS bằng tài khoản cá nhân. Việc tuyển đủ nhân lực cho pilot vẫn chờ xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -36,11 +36,13 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 ### Phạm Trấn Quốc — 2A202604113
 
+Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [phiếu xác nhận CP3](docs/CP3_phieu_PhamTranQuoc.md).
+
 **Phần việc phụ trách:** Người gắn nhãn 1; điều phối nhóm và theo dõi tiêu chí hoàn thành.
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao tài liệu và chốt CP3 cùng Dũng. Bản bàn giao gồm [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), kết quả D1/E1 và dự thảo hồ sơ nhóm. Dũng đã nộp phiếu riêng. Còn chờ phiếu độc lập của Quốc và phần đối chiếu. Xem [báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) để biết phần hỗ trợ bằng AI và bằng chứng từng việc.
+**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao tài liệu và chốt CP3 cùng Dũng. Bản bàn giao gồm [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), kết quả D1/E1 và dự thảo hồ sơ nhóm. Dũng đã nộp phiếu riêng. Kết quả đối chiếu tham khảo và tình trạng bằng chứng độc lập được ghi trong [bảng lỗi](report/team/bang_loi.md). Xem [báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) để biết phần hỗ trợ bằng AI và bằng chứng từng việc.
 
 ### Trương Văn Phong — 2A202604091
 

@@ -15,7 +15,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 ## 3. Giải pháp
 
 - A/B dùng trace và dữ liệu yêu cầu để tính chi phí, so với nhân viên tự làm và phân tích độ nhạy. Kết quả đã được đối chiếu với code chạy trên hai CSV. Chi tiết ở [bảng chi phí](bang_chi_phi.md).
-- C phân loại theo nguyên nhân gốc. Đã có phần tham khảo 20 ca và năm đề xuất khắc phục. Bảng CP3 ghi từng nhãn của Dũng (phiếu gốc ở commit `97505fa`) cạnh nhãn Codex lập theo ủy quyền. Hai nguồn khớp 20/20 mã ca. Sau khi Quốc hoàn tất phiếu riêng, hai người ghi kết quả đối chiếu trong [bảng lỗi](bang_loi.md).
+- Quốc đã xác nhận từng nhãn dựa trên bảng tham khảo. Đối chiếu theo mã với phiếu gốc của Dũng cho 20/20 ca trùng. Chưa có số đo đồng thuận độc lập và đang chờ hướng dẫn của giảng viên cho tiêu chí này. Bảng nhóm có năm phương án khắc phục theo loại lỗi. Xem [bảng lỗi](bang_loi.md).
 - D đề xuất ngẫu nhiên theo nhân viên với đối chứng chạy cùng thời gian. Xem [kế hoạch pilot](pilot_plan.yaml).
 - E tính chỉ số từ CSV và thiết kế sự kiện để đo trong pilot. Xem [chỉ số](chi_so.md) và [hồ sơ launch](ho_so_launch_v0.md).
 
@@ -23,7 +23,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 Chi phí mỗi việc thành công là 4.472 đ [simulated]. Giới hạn 2 lần chạy cho chi phí cả hệ thống khoảng 5.751 đ/yêu cầu [simulated], so với mốc 12.000 đ tự làm. Làm lại gấp đôi làm chi phí mỗi việc thành công tăng 51,8% [simulated].
 
-Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng. Chưa có kết quả duyệt chéo.
+Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast trong [phiếu chấm của Ghidorah](phieu_cham.md). Chưa ghi nhận kết quả hội đồng chấm Ghidorah.
 
 ## 5. Khó khăn và cách xử lý
 

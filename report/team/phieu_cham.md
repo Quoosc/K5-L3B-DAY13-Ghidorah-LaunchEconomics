@@ -3,7 +3,8 @@
 Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo bằng chứng trong hồ sơ, không theo cách trình bày: một đề xuất No-go có lý do bằng số được điểm cao hơn một đề xuất Go bỏ qua con số bất lợi.
 
 - Nhóm chấm (hội đồng): Ghidorah, L3B
-- Nhóm được chấm: ...
+- Nhóm được chấm: ToiYeuVinFast
+- Đánh giá tổng quan: **9/10**.
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
@@ -14,7 +15,7 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 
 **Quyết định của hội đồng:** Chờ buổi duyệt. Chọn Go, Go có điều kiện hoặc No-go sau khi chấm.
 
-**Lý do:** ...
+**Nhận xét dự thảo:** Khi chốt phiếu, dẫn số liệu từ hồ sơ ToiYeuVinFast để kiểm tra phạm vi pilot, cỡ mẫu hiệu dụng và ngưỡng dừng.
 
 **Câu hỏi chuẩn bị cho đội trình:** Nhóm cần bao nhiêu yêu cầu hiệu dụng ở mỗi nhánh sau khi tính đến cách chia cụm, và sẽ xử lý thế nào nếu thu không đủ mẫu?
 

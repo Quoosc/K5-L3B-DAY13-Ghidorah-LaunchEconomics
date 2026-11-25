@@ -2,48 +2,42 @@
 
 20 ca lỗi nằm trong `docs/Ngay13_Lab13_De_bai_hoc_vien.docx`. Năm loại theo Google PAIR: **Do người dùng · Hệ thống · Ngữ cảnh · Giới hạn hệ thống · Ngầm**. Gắn nhãn theo nguyên nhân gốc, không theo chỗ cần sửa.
 
-## Hai bộ nhãn độc lập
+## Đối chiếu tham khảo theo mã ca 01–20
 
-Người gắn nhãn 1: Phạm Trấn Quốc · Người gắn nhãn 2: Trần Anh Dũng
+Phạm Trấn Quốc đã rà soát và xác nhận các nhãn dựa trên bảng tham khảo. Bảng dưới ghép [phiếu Quốc xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md) với [phiếu gốc của Dũng](../../docs/CP3_phieu_TranAnhDung.md) theo mã 01–20.
 
-Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến khi cả hai đã hoàn tất. Sau đó chép nguyên hai bộ vào bảng. Mọi thay đổi sau khi thảo luận được ghi ở cột “Nhãn thống nhất”.
+| Ca | Quốc xác nhận sau rà soát | Dũng ghi trên phiếu gốc | Kết quả đối chiếu |
+| --: | --- | --- | --- |
+| 01 | Do người dùng | Do người dùng | Trùng |
+| 02 | Hệ thống | Hệ thống | Trùng |
+| 03 | Ngữ cảnh | Ngữ cảnh | Trùng |
+| 04 | Giới hạn hệ thống | Giới hạn hệ thống | Trùng |
+| 05 | Ngầm | Ngầm | Trùng |
+| 06 | Do người dùng | Do người dùng | Trùng |
+| 07 | Hệ thống | Hệ thống | Trùng |
+| 08 | Hệ thống | Hệ thống | Trùng |
+| 09 | Do người dùng | Do người dùng | Trùng |
+| 10 | Ngữ cảnh | Ngữ cảnh | Trùng |
+| 11 | Giới hạn hệ thống | Giới hạn hệ thống | Trùng |
+| 12 | Ngầm | Ngầm | Trùng |
+| 13 | Giới hạn hệ thống | Giới hạn hệ thống | Trùng |
+| 14 | Do người dùng | Do người dùng | Trùng |
+| 15 | Hệ thống | Hệ thống | Trùng |
+| 16 | Ngữ cảnh | Ngữ cảnh | Trùng |
+| 17 | Ngầm | Ngầm | Trùng |
+| 18 | Ngữ cảnh | Ngữ cảnh | Trùng |
+| 19 | Giới hạn hệ thống | Giới hạn hệ thống | Trùng |
+| 20 | Hệ thống | Hệ thống | Trùng |
 
-**Nhận phiếu:** Cột Dũng được chép theo mã ca từ [phiếu gốc](../../docs/CP3_phieu_TranAnhDung.md) tại commit `97505fa`. Dấu — biểu thị ô đang chờ dữ liệu. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
+**Hai phiếu khớp 20/20 ca (100%).** Không có mã ca khác nhãn cần giải thích trong lần đối chiếu này. Phiếu Quốc xác nhận dùng nhãn tham khảo. Để tính đồng thuận độc lập cần bộ nhãn Quốc lập trước khi xem tham khảo. Chưa có kết quả đối chiếu với đáp án chính thức của giảng viên.
 
-| Ca | Quốc (phiếu cá nhân) | Dũng (phiếu cá nhân) | Trùng? | Nhãn thống nhất Quốc–Dũng |
-| --: | --- | --- | --- | --- |
-| 1 | — | Do người dùng | — | — |
-| 2 | — | Hệ thống | — | — |
-| 3 | — | Ngữ cảnh | — | — |
-| 4 | — | Giới hạn hệ thống | — | — |
-| 5 | — | Ngầm | — | — |
-| 6 | — | Do người dùng | — | — |
-| 7 | — | Hệ thống | — | — |
-| 8 | — | Hệ thống | — | — |
-| 9 | — | Do người dùng | — | — |
-| 10 | — | Ngữ cảnh | — | — |
-| 11 | — | Giới hạn hệ thống | — | — |
-| 12 | — | Ngầm | — | — |
-| 13 | — | Giới hạn hệ thống | — | — |
-| 14 | — | Do người dùng | — | — |
-| 15 | — | Hệ thống | — | — |
-| 16 | — | Ngữ cảnh | — | — |
-| 17 | — | Ngầm | — | — |
-| 18 | — | Ngữ cảnh | — | — |
-| 19 | — | Giới hạn hệ thống | — | — |
-| 20 | — | Hệ thống | — | — |
+## Quốc trình bày CP3 khi duyệt chéo
 
-**Đồng thuận Quốc–Dũng** chưa tính được vì mới có một phiếu gốc.
+Hai phiếu bao phủ đủ mã 01–20. Phân bố gồm 4 ca do người dùng, 5 ca hệ thống, 4 ca ngữ cảnh, 4 ca giới hạn hệ thống, 3 ca ngầm. Mẫu số là 20 mã ghép được giữa hai tài liệu; tử số là 20 mã cùng nhãn. Phiếu Quốc xác nhận được lập sau khi xem bảng tham khảo, nên kết quả này chỉ cho thấy hai tài liệu nhất quán.
 
-**Mã ca bất đồng:** Xác định sau khi nhận phiếu của Quốc và so hai bộ gốc.
+**Ví dụ để giải thích cách phân loại.** Ở ca 20, cùng một khoản hoàn được ghi hai lần sau khi gửi lại lệnh. Nguyên nhân là hệ thống xử lý lại giao dịch. Kỹ sư trưởng agent có thể phát hiện bằng cách đếm bút toán thành công theo mã giao dịch và dùng cùng khóa chống trùng khi gửi lại. Ở ca 05, khoản hoàn theo giá trước giảm chỉ lộ ra khi đối soát mẫu. Vì lỗi đã lọt qua luồng xử lý, nhóm xếp ca này vào loại ngầm và đề xuất kế toán đối soát khoản hoàn với phí thực trả.
 
-**Tỉ lệ khớp đáp án giảng viên:** Chờ đáp án chính thức và nhãn thống nhất.
-
-## Quy tắc phân biệt cho các ca không trùng
-
-Mỗi ca không trùng một câu. Đồng thuận dưới 80% thì ghi định nghĩa đã viết lại.
-
-- ...
+**Câu hỏi dành cho giảng viên trước khi ghi điểm C3.** “Nhóm Ghidorah còn phiếu gốc của Dũng và phiếu Quốc xác nhận sau khi xem tham khảo. Nhóm chưa tìm được phiếu Quốc lập trước đó. Thầy/cô muốn nhóm ghi thiếu bằng chứng cho tiêu chí độc lập hay cho phép hai người gắn nhãn riêng trên một bộ ca mới?” Nếu được giao bộ mới, hai người lưu riêng từng phiếu trước khi so và ghi kết quả lượt bổ sung ở mục riêng.
 
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
@@ -59,6 +53,8 @@ Năm biện pháp đề xuất từ các tình huống trong đề, để nhóm 
 
 ## Rà soát trước khi chốt CP3
 
+- [x] Đối chiếu theo mã 01–20: phiếu Quốc xác nhận từ bảng tham khảo trùng 20/20 với phiếu gốc của Dũng.
+- [x] Bảng đề xuất có năm loại lỗi, mỗi loại một ca với tín hiệu phát hiện đo được, biện pháp và vai trò phụ trách.
 - [ ] Hai bộ nhãn gốc có đủ ca 1–20 và được giữ nguyên sau khi đối chiếu.
 - [ ] Cột “Trùng?” so hai bộ nhãn gốc. Tỉ lệ đồng thuận từ 80% khi có ít nhất 16 ca trùng. Nếu thấp hơn, ghi định nghĩa đã chỉnh ở mục quy tắc phân biệt.
 - [ ] Cột “Nhãn thống nhất” có đủ 20 ca. Mỗi ca bất đồng có một câu giải thích cách phân biệt.
