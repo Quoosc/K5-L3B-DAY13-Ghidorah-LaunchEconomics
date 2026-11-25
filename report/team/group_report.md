@@ -23,7 +23,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 Chi phí mỗi việc thành công là 4.472 đ [simulated]. Giới hạn 2 lần chạy cho chi phí cả hệ thống khoảng 5.751 đ/yêu cầu [simulated], so với mốc 12.000 đ tự làm. Làm lại gấp đôi làm chi phí mỗi việc thành công tăng 51,8% [simulated].
 
-Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng. Chưa có kết quả duyệt chéo.
+Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast trong [phiếu chấm của Ghidorah](phieu_cham.md). Chưa ghi nhận kết quả hội đồng chấm Ghidorah.
 
 ## 5. Khó khăn và cách xử lý
 
