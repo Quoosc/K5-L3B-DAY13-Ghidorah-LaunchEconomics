@@ -31,6 +31,14 @@ Phạm Trấn Quốc đã rà soát và xác nhận các nhãn dựa trên bản
 
 **Hai phiếu khớp 20/20 ca (100%).** Không có mã ca khác nhãn cần giải thích trong lần đối chiếu này. Phiếu Quốc xác nhận dùng nhãn tham khảo. Để tính đồng thuận độc lập cần bộ nhãn Quốc lập trước khi xem tham khảo. Chưa có kết quả đối chiếu với đáp án chính thức của giảng viên.
 
+## Quốc trình bày CP3 khi duyệt chéo
+
+Hai phiếu bao phủ đủ mã 01–20. Phân bố gồm 4 ca do người dùng, 5 ca hệ thống, 4 ca ngữ cảnh, 4 ca giới hạn hệ thống, 3 ca ngầm. Mẫu số là 20 mã ghép được giữa hai tài liệu; tử số là 20 mã cùng nhãn. Phiếu Quốc xác nhận được lập sau khi xem bảng tham khảo, nên kết quả này chỉ cho thấy hai tài liệu nhất quán.
+
+**Ví dụ để giải thích cách phân loại.** Ở ca 20, cùng một khoản hoàn được ghi hai lần sau khi gửi lại lệnh. Nguyên nhân là hệ thống xử lý lại giao dịch. Kỹ sư trưởng agent có thể phát hiện bằng cách đếm bút toán thành công theo mã giao dịch và dùng cùng khóa chống trùng khi gửi lại. Ở ca 05, khoản hoàn theo giá trước giảm chỉ lộ ra khi đối soát mẫu. Vì lỗi đã lọt qua luồng xử lý, nhóm xếp ca này vào loại ngầm và đề xuất kế toán đối soát khoản hoàn với phí thực trả.
+
+**Câu hỏi dành cho giảng viên trước khi ghi điểm C3.** “Nhóm Ghidorah còn phiếu gốc của Dũng và phiếu Quốc xác nhận sau khi xem tham khảo. Nhóm chưa tìm được phiếu Quốc lập trước đó. Thầy/cô muốn nhóm ghi thiếu bằng chứng cho tiêu chí độc lập hay cho phép hai người gắn nhãn riêng trên một bộ ca mới?” Nếu được giao bộ mới, hai người lưu riêng từng phiếu trước khi so và ghi kết quả lượt bổ sung ở mục riêng.
+
 ## Bảng khắc phục cho 5 ca, mỗi loại một ca
 
 Năm biện pháp đề xuất từ các tình huống trong đề, để nhóm xem xét khi chốt CP3 và chuẩn bị pilot.

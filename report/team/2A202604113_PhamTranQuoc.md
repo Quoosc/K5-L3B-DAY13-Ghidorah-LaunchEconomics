@@ -38,7 +38,7 @@ Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `g
 
 Các số trên là kết quả của nhóm. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
-**Đối chiếu CP3.** [Phiếu xác nhận của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) ghi đủ 20 nhãn từ bảng tham khảo theo xác nhận của Quốc. Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với bộ nhãn này. Bằng chứng đối chiếu theo mã nằm ở commit `9c02779`. Kiểm tra thư mục lab, các nhánh Git và stash chưa tìm thấy phiếu Quốc lập trước khi xem tham khảo. Tiêu chí độc lập chờ hướng dẫn của giảng viên. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
+**Đối chiếu CP3.** [Phiếu xác nhận của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) ghi đủ 20 nhãn từ bảng tham khảo theo xác nhận của Quốc. Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với bộ nhãn này. Bằng chứng đối chiếu theo mã nằm ở commit `9c02779`. Kiểm tra thư mục lab, các nhánh Git và stash chưa tìm thấy phiếu Quốc lập trước khi xem tham khảo. Tiêu chí độc lập chờ hướng dẫn của giảng viên. [Phần trình bày khi duyệt chéo](bang_loi.md#quốc-trình-bày-cp3-khi-duyệt-chéo) ghi cách tính, hai ví dụ phân loại và câu hỏi về phương án bổ sung. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
 
 ## 5. Công cụ AI đã dùng
 
@@ -56,6 +56,6 @@ Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiế
 | Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Quốc đã kiểm tra và xác nhận đủ 20 mã. Đã đối chiếu hai tài liệu, 20/20 mã trùng. Chưa có số đo đồng thuận độc lập. |
 | Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. A/B đã đối chiếu. Hồ sơ hiện đề xuất No-go và đang chờ kết quả duyệt chéo. |
 | Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã điền email, dẫn chứng commit, khai báo công cụ và tự đánh giá. |
-| Khi nhóm chốt bài | Rà danh sách tệp, xác nhận commit chốt và nộp link repo trên LMS bằng tài khoản cá nhân. | Đã kiểm đủ sáu tệp hồ sơ, báo cáo nhóm và bốn báo cáo cá nhân. Chương trình chạy hết, ba phép thử A1 đạt; YAML đọc được với bốn luật dừng. Mã bản chốt ghi trong [TEAM.md](../../TEAM.md). Chưa có biên nhận LMS. |
+| Khi nhóm chốt bài | Rà danh sách tệp, xác nhận commit chốt và nộp link repo trên LMS bằng tài khoản cá nhân. | Đã kiểm đủ sáu tệp hồ sơ, báo cáo nhóm và bốn báo cáo cá nhân. Chương trình chạy hết, ba phép thử A1 đạt; YAML đọc được với bốn luật dừng. Mã bản chốt ghi trong [TEAM.md](../../TEAM.md). Quốc xác nhận đã nộp link repo trên LMS. |
 
 Chi tiết từng checkpoint và yêu cầu nộp nằm trong [CHECKPOINTS.md](../../CHECKPOINTS.md) và [SUBMISSION.md](../../SUBMISSION.md).
