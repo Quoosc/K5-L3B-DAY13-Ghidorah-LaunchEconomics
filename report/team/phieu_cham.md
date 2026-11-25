@@ -8,10 +8,10 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
-| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | ... | ... |
-| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | ... | ... |
-| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | ... | ... |
-| **Tổng** | | | | **... / 30** | |
+| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | Chờ xác nhận | Cần đề xuất của ToiYeuVinFast và các số dùng để bảo vệ đề xuất. |
+| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | Chờ xác nhận | Cần bảng kết quả và căn cứ đội dùng để giới hạn phạm vi. |
+| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | Chờ xác nhận | Cần kế hoạch của đội, gồm đối chứng, cỡ mẫu và luật dừng. |
+| **Tổng** | | | | **Chưa chốt / 30** | Điểm tổng quan 9/10 được ghi riêng. |
 
 **Quyết định của hội đồng:** Chưa có thông tin để ghi nhận quyết định Go, Go có điều kiện hoặc No-go.
 
@@ -28,3 +28,11 @@ Ghidorah và ToiYeuVinFast đã trao đổi năm câu dưới đây. Chưa ghi n
 5. **Kết luận khi pilot chưa rõ tác động.** Thiết kế nhắm mức chênh 6 điểm phần trăm, còn power chỉ khoảng 64% nếu tác động thực là 5 điểm. Nếu kết quả không có ý nghĩa thống kê, nhóm sẽ dựa vào tiêu chí nào để quyết định dừng, kéo dài hay thiết kế lại pilot?
 
 Các đề xuất xử lý của Ghidorah sau khi rà câu hỏi nằm trong [kế hoạch pilot](pilot_plan.yaml) và [bảng lỗi CP3](bang_loi.md).
+
+### Phản hồi bằng văn bản của Ghidorah sau khi rà hồ sơ
+
+1. **Lịch pilot.** Hết tuần đầu ở bậc 50%, kiểm tiến độ thu mẫu. Giữ hai nhánh và thu tiếp đến khi đủ mẫu trong giới hạn 15 ngày làm việc đề xuất. Ngày quyết định tính từ lúc khóa mẫu thực tế, sớm nhất 8 ngày sau ca cuối và sau khi đã rà xong an toàn.
+2. **Giảm xem lại.** Thử từng bậc trên ca nội địa chuẩn. Chỉ giữ mức xem lại thấp hơn khi chi phí cả hệ thống đo thực tế dưới 12.000 đ/yêu cầu, không có hoàn trùng hoặc sai tiền trong mẫu đối soát, và qua ba lần rà có tỷ lệ mở lại không quá 6% và chênh dưới 2 điểm so với đối chứng.
+3. **Hoàn trùng.** Từ một ca, Giám đốc vận hành tắt trợ lý trong vòng 30 phút kể từ lúc phát hiện, chuyển yêu cầu về nhân viên và giao kế toán đối soát. Cửa sổ ba lần rà chỉ áp dụng cho tỷ lệ mở lại.
+4. **CP3.** Kết quả 20/20 là mức trùng khi Quốc xác nhận nhãn tham khảo và so với phiếu gốc của Dũng. Nhóm đã chuẩn bị xin giảng viên bộ ca mới hoặc cách đánh giá thay thế, rồi sẽ lưu riêng hai phiếu trước khi đối chiếu nếu được làm lại.
+5. **Hiệu quả chưa rõ.** Báo chênh lệch và khoảng tin cậy 95% có tính đến cụm. Nếu cận trên dưới +5 điểm phần trăm, dừng vì chưa ủng hộ mức cải thiện tối thiểu. Nếu khoảng vẫn chứa cả 0 và +5 điểm, giữ No-go và trình thiết kế mới. Chỉ kéo dài thu mẫu theo quy tắc định trước khi xem hiệu quả chính.

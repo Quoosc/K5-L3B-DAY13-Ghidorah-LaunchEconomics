@@ -25,7 +25,7 @@ Chi phí mỗi việc thành công là 4.472 đ [simulated]. Giới hạn 2 lầ
 
 Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng.
 
-Ghidorah và ToiYeuVinFast đã trao đổi năm câu hỏi về lịch pilot, điều kiện giảm xem lại, luật dừng khi hoàn trùng, tính độc lập của CP3 và cách xử lý kết quả chưa rõ. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast. Chưa ghi nhận điểm hội đồng chấm Ghidorah hoặc câu trả lời thực tế tại buổi duyệt. Xem [phiếu chấm và câu hỏi hai nhóm](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo).
+Ghidorah và ToiYeuVinFast đã trao đổi năm câu hỏi về lịch pilot, điều kiện giảm xem lại, luật dừng khi hoàn trùng, tính độc lập của CP3 và cách xử lý kết quả chưa rõ. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast. Chưa ghi nhận điểm hội đồng chấm Ghidorah hoặc câu trả lời thực tế tại buổi duyệt. [Phiếu chấm](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo) lưu cả câu hỏi đã trao đổi và phản hồi bằng văn bản sau khi rà hồ sơ.
 
 ## 5. Khó khăn và cách xử lý
 

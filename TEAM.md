@@ -28,7 +28,7 @@
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Dũng đã nộp phiếu CP3 ở commit `97505fa`. Hai phiếu đã đối chiếu tham khảo và khớp 20/20. Chưa tìm thấy phiếu Quốc lập trước khi xem tham khảo trong repo hoặc lịch sử Git. Cần hướng dẫn của giảng viên cho tiêu chí độc lập và kết quả hội đồng cho phần duyệt chéo. Quốc xác nhận đã nộp link repo trên LMS bằng tài khoản cá nhân. Việc tuyển đủ nhân lực cho pilot vẫn chờ xác nhận.
+**Trạng thái bàn giao.** Quốc phụ trách bàn giao và rà hồ sơ nhóm. Code A/B có từ commit `dc8e753`. Lần chạy kiểm tra từ đầu đến cuối đạt cả ba phép thử A1 và cho kết quả A/B, D1, E1. Quang Anh đã xác nhận số đối chiếu. Phiếu Quốc xác nhận sau khi xem tham khảo khớp 20/20 với phiếu gốc của Dũng. Lượt bổ sung CP3 chờ hướng dẫn của giảng viên. [Phiếu duyệt chéo](report/team/phieu_cham.md) đã có năm câu hỏi hai nhóm trao đổi và phần phản hồi bằng văn bản. Còn chờ điểm chi tiết và quyết định hội đồng. Quốc xác nhận đã nộp link trên LMS. Việc tuyển đủ nhân lực cho pilot vẫn chờ xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 

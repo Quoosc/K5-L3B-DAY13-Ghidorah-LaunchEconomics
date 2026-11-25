@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Phạm Trấn Quốc
 
-**Trạng thái:** Tài khoản nhóm trưởng đã bàn giao phân công và hồ sơ tại hai commit dưới đây. A/B, D1 và E1 đã chạy được trên bản nhóm. Phần cá nhân còn cần phiếu CP3 của Quốc, kết quả đối chiếu với Dũng và tự đánh giá của Quốc. Lượt bổ sung CP3 đang chờ hướng dẫn của giảng viên và bộ ca mới được chấp thuận; chưa lập phiếu mới và chưa đối chiếu.
+**Trạng thái:** Quốc đã phân công, bàn giao, rà hồ sơ, xác nhận 20 nhãn tham khảo và xác nhận đã nộp link trên LMS. A/B, D1 và E1 chạy được trên bản nhóm. Lượt bổ sung CP3 đang chờ giảng viên chấp thuận bộ ca hoặc phương án đánh giá thay thế.
 
 ## 1. Thông tin thành viên
 
@@ -21,8 +21,9 @@ Theo dõi tiêu chí hoàn thành của các checkpoint. Ở CP3, tự gắn nh�
 | Công bố phân công và bàn giao tài liệu cho nhóm | Phạm Trấn Quốc        | Commit `1c0c363` cập nhật TEAM.md. Commit `a94f634` bàn giao phiếu trắng, phân công và bản nháp Gate 2a qua tài khoản Quoosc.                   |
 | Bàn giao phiếu CP3 và tài liệu đối chiếu        | Phạm Trấn Quốc        | [Phiếu trắng](../../docs/CP3_phieu_gan_nhan_trang.md), [phần tham khảo CP3](bang_loi.md#phân-tích-tham-khảo). Phạm vi hỗ trợ được ghi ở mục 5.  |
 | Điều phối rà cỡ mẫu, chỉ số và hồ sơ nhóm       | Phạm Trấn Quốc        | [Mã tính](../../src/lab13.py), [D1/D2](pilot_plan.yaml), [E1](chi_so.md). Phạm vi hỗ trợ được ghi ở mục 5.                                      |
-| Gắn nhãn độc lập, đối chiếu và tự kiểm báo cáo  | Phạm Trấn Quốc        | Chờ bộ nhãn gốc và xác nhận phần trực tiếp thực hiện.                                                                                           |
-| Chuẩn bị lượt bổ sung CP3                       | Phạm Trấn Quốc        | Soạn [tin nhắn xin bộ ca](../../docs/CP3_luot_bo_sung_tin_nhan.md); ghi trạng thái chờ hướng dẫn tại [bảng lỗi](bang_loi.md#cp3--lượt-bổ-sung). |
+| Rà hồ sơ và xác nhận 20 nhãn CP3 | Phạm Trấn Quốc | [Phiếu Quốc đã xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md) và commit đối chiếu `9c02779`. |
+| Chuẩn bị lượt bổ sung CP3 | Phạm Trấn Quốc | [Dự thảo tin nhắn xin bộ ca](../../docs/CP3_luot_bo_sung_tin_nhan.md) và [trạng thái lượt bổ sung](bang_loi.md#cp3--lượt-bổ-sung). |
+| Ghi nhận nội dung duyệt chéo | Phạm Trấn Quốc | Đã cung cấp đánh giá tổng quan 9/10 cho ToiYeuVinFast và năm câu hỏi hai nhóm trao đổi. Xem [phiếu chấm](phieu_cham.md). |
 
 ## 4. Bằng chứng
 
@@ -38,7 +39,7 @@ Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `g
 
 Các số trên là kết quả của nhóm. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
-**Đối chiếu tham khảo CP3.** Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với [bảng tham khảo](../../docs/CP3_doi_chieu_tham_khao.md). Tỉ lệ đồng thuận giữa Quốc và Dũng đang chờ phiếu riêng của Quốc. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
+**Đối chiếu tham khảo CP3.** Quốc đã rà và xác nhận [20 nhãn tham khảo](../../docs/CP3_phieu_PhamTranQuoc.md). Kết quả đối chiếu với phiếu gốc của Dũng (commit `97505fa`) là 20/20, lưu tại `9c02779`. Đồng thuận độc lập đang chờ lượt bổ sung. [Bảng lỗi](bang_loi.md) có năm ca đại diện kèm tín hiệu phát hiện, hành động và vai trò phụ trách.
 
 ### CP3 – Lượt bổ sung
 
@@ -55,11 +56,11 @@ Số ca hợp lệ, số ca trùng, tỉ lệ đồng thuận và danh sách ca 
 
 ## 5. Công cụ AI đã dùng
 
-Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiếu trắng, bản nháp hồ sơ và gợi ý tự đánh giá, phân tích tham khảo 20 ca, đối chiếu với phiếu Dũng, viết phần tính D1/E1 và chạy lại số liệu. Bộ nhãn độc lập và phần tự kiểm tra của Quốc sẽ được ghi riêng sau khi Quốc thực hiện. Trong lượt bổ sung CP3, Codex rà tài liệu để kiểm tra hướng dẫn và bộ ca được duyệt, soạn tin nhắn xin bộ ca và ghi trạng thái chờ hướng dẫn; không tạo nhãn hoặc phiếu khi chưa có bộ ca được duyệt.
+Quốc phụ trách chính việc điều phối, bàn giao và rà hồ sơ. Quốc đã kiểm đủ 20 mã, xác nhận các nhãn trên phiếu tham khảo và rà lại phần tự đánh giá. Codex hỗ trợ soạn phiếu và dự thảo, đề xuất nhãn tham khảo, đối chiếu tài liệu, viết phần tính D1/E1, chạy lại số liệu và chuẩn bị câu hỏi xin hướng dẫn bổ sung CP3.
 
 ## 6. Tự đánh giá
 
-**Gợi ý tự đánh giá, chờ Quốc xác nhận.** Phần điều phối có thể kiểm tra qua hai commit phân công và bàn giao. Nhóm đã nối kết quả A/B với quyết định pilot. Ở kịch bản xem lại toàn bộ và làm lại 15,3 phút, chi phí 12.415 đ/việc [simulated] vượt mốc nhân viên tự làm 12.000 đ. Vì vậy đề xuất hiện tại là No-go. Điểm cần cải thiện trong khâu điều phối là thu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo để nhóm đo được mức đồng thuận độc lập. Lượt bổ sung CP3 chưa thể thực hiện vì chưa có bộ ca được giảng viên chấp thuận; nhóm giữ nguyên hai phiếu cũ và kết quả tham khảo 20/20.
+**Tự đánh giá đã được Quốc rà soát.** Hai commit phân công và bàn giao ghi nhận phần điều phối. Kịch bản xem lại toàn bộ với 15,3 phút làm lại có chi phí 12.415 đ/việc thành công [simulated], cao hơn mốc tham chiếu 12.000 đ. Đây là lý do cần đo chi phí thực trên cùng đơn vị trước khi đề xuất mở rộng. Điểm cần cải thiện là thu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo. Lượt bổ sung CP3 chờ hướng dẫn của giảng viên.
 
 ## Danh sách việc của Quốc
 
