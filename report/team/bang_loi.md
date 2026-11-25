@@ -67,6 +67,8 @@ Năm biện pháp do Codex tổng hợp từ tình huống trong đề để nh�
 
 ## Phân tích tham khảo của Codex
 
+Xem [phiếu do Codex lập theo ủy quyền](../../docs/CP3_phieu_uy_quyen_Codex.md) để đối chiếu từng ca với phiếu Dũng.
+
 Chỉ mở sau khi cả hai đã ghi xong bộ nhãn độc lập. Codex đối chiếu tình huống trong đề với [nhãn tham khảo trong hướng dẫn lab](../../docs/Lab13_Huong_dan_chi_tiet_buoi_chieu.md#nhãn-tham-khảo-cho-20-ca). Các nhãn dưới đây phục vụ thảo luận và rà soát sau khi gắn nhãn. Cột nhãn gốc và tỉ lệ đồng thuận sử dụng kết quả thực tế của hai thành viên.
 
 <details>

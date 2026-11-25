@@ -45,7 +45,9 @@ ChatGPT qua Codex được dùng để rà yêu cầu, đối chiếu 20 tình h
 
 ## 6. Tự đánh giá
 
-Quốc tự bổ sung sau CP3. Nêu một tiêu chí đã đạt kèm bằng chứng và một điểm cần cải thiện. Có thể chọn một ca bất đồng để giải thích nguyên nhân gốc và quy tắc nhóm dùng khi chốt nhãn.
+**Bản dự thảo do Codex tổng hợp cho Quốc từ bằng chứng trong repo.** Phần điều phối có thể kiểm tra qua hai commit phân công và bàn giao. Nhóm đã nối kết quả A/B với quyết định pilot: ở kịch bản xem lại toàn bộ và làm lại 15,3 phút, chi phí 12.415 đ/việc [simulated] vượt mốc nhân viên tự làm 12.000 đ. Vì vậy đề xuất hiện tại là No-go. Điểm cần cải thiện trong khâu điều phối là thu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo, để nhóm đo được mức đồng thuận độc lập.
+
+Theo ủy quyền của Quốc, Codex đã lập [phiếu do Codex lập theo ủy quyền](../../docs/CP3_phieu_uy_quyen_Codex.md) có căn cứ cho cả 20 ca. Kết quả so với phiếu Dũng là 20/20; cột phiếu cá nhân trong bảng chính giữ theo dữ liệu gốc hiện có.
 
 ## Danh sách việc của Quốc
 
