@@ -28,7 +28,7 @@
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Việc trao đổi log riêng, hai bộ nhãn, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ xác nhận.
+**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Dũng đã nộp phiếu CP3 ở commit `97505fa`. Còn chờ phiếu độc lập của Quốc, đối chiếu CP3 và kết quả hội đồng. Việc tuyển đủ nhân lực cho pilot và việc nộp LMS chưa được xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -40,7 +40,7 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Tiến độ và bằng chứng:** Đã có [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), phần tham khảo, kết quả D1/E1 và bản dự thảo hồ sơ nhóm do Sol (Codex) hỗ trợ. Còn chờ hai bộ nhãn độc lập và phần đối chiếu. Xem [danh sách việc của Quốc](report/team/2A202604113_PhamTranQuoc.md#danh-sách-việc-của-quốc).
+**Tiến độ và bằng chứng:** Đã có [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), phần tham khảo, kết quả D1/E1 và bản dự thảo hồ sơ nhóm do Sol (Codex) hỗ trợ. Dũng đã nộp phiếu riêng. Còn chờ phiếu độc lập của Quốc và phần đối chiếu. Xem [danh sách việc của Quốc](report/team/2A202604113_PhamTranQuoc.md#danh-sách-việc-của-quốc).
 
 ### Trương Văn Phong — 2A202604091
 

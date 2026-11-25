@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Phạm Trấn Quốc
 
-**Trạng thái:** Đã chuẩn bị khung báo cáo, phân tích tham khảo CP3 và bản dự thảo các phần dùng để điều phối nhóm. Chờ kết quả CP3, đóng góp thực tế và tự đánh giá.
+**Trạng thái:** Tài khoản nhóm trưởng đã bàn giao phân công và hồ sơ tại hai commit dưới đây. A/B, D1 và E1 đã chạy được trên bản nhóm. Phần cá nhân còn cần phiếu CP3 của Quốc, kết quả đối chiếu với Dũng và tự đánh giá của Quốc.
 
 ## 1. Thông tin thành viên
 
@@ -18,13 +18,24 @@ Theo dõi tiêu chí hoàn thành của các checkpoint. Ở CP3, tự gắn nh�
 
 | Việc | Người thực hiện | Bằng chứng |
 | --- | --- | --- |
+| Công bố phân công và bàn giao tài liệu cho nhóm | Tài khoản Quoosc của Quốc | Commit `1c0c363` cập nhật TEAM.md. Commit `a94f634` bàn giao phiếu trắng, phân công và bản nháp Gate 2a có Codex hỗ trợ. |
 | Chuẩn bị phiếu CP3 và phân tích tham khảo | Sol (Codex) | [Phiếu trắng](../../docs/CP3_phieu_gan_nhan_trang.md), [phần tham khảo CP3](bang_loi.md#phân-tích-tham-khảo-của-codex) |
 | Tính cỡ mẫu và chỉ số, rà hồ sơ | Sol (Codex) | [Mã tính](../../src/lab13.py), [D1/D2](pilot_plan.yaml), [E1](chi_so.md) |
 | Gắn nhãn độc lập, đối chiếu và tự kiểm báo cáo | Phạm Trấn Quốc | Chờ bộ nhãn gốc và xác nhận phần trực tiếp thực hiện. |
 
 ## 4. Bằng chứng
 
-Nơi ghi kết quả CP3 là [bảng lỗi](bang_loi.md). Sau khi làm xong, bổ sung phần trực tiếp thực hiện, số ca trùng trên 20, ca bất đồng tiêu biểu và commit hoặc tệp thể hiện đóng góp. Ghi thêm bằng chứng điều phối hoặc duyệt chéo nếu có tham gia.
+Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `git show --stat a94f634`. Sau bàn giao, Phong đưa A/B vào commit `dc8e753`, Quang Anh xác nhận đối chiếu ở `81a568d`, Dũng lưu phiếu riêng ở `97505fa` và cập nhật hồ sơ ở `0fc3bbe`.
+
+**Căn cứ cho đề xuất của nhóm tại Gate 2a**
+
+| Câu hỏi | Kết quả có thể đối chiếu | Ý nghĩa cho quyết định |
+| --- | --- | --- |
+| Một việc thành công thực sự tốn bao nhiêu? | Tổng 4.373.585 đ chia 978 việc thành công, xấp xỉ 4.472 đ/việc [simulated]. | Một yêu cầu thất bại vẫn tiêu token, gọi tool hoặc dùng giờ nhân viên. Những khoản đó vẫn vào tử số. Mẫu số đếm số việc đã giải quyết thành công. |
+| Xem lại toàn bộ có còn tiết kiệm? | Ở phạm vi nội địa và hàng nặng, B4 cho 11.743 đ/việc với giả định làm lại 9 phút và 12.415 đ/việc với 15,3 phút [simulated]. | Kịch bản thứ hai vượt mốc nhân viên tự xử lý 12.000 đ. Pilot cần đo phút xem lại và làm lại thực tế. |
+| Cụm nhân viên ảnh hưởng thế nào đến cỡ mẫu? | Mỗi nhánh có 20 người × 299 yêu cầu = 5.980 yêu cầu. Hệ số thiết kế bằng 1 + (299 − 1) × 0,02 = 6,96. Cỡ mẫu hiệu dụng khoảng 859,2 mỗi nhánh. | Thiết kế nhắm chênh lệch 6 điểm phần trăm. Cần xác nhận đủ 40 người trước khi mở pilot. |
+
+Các số trên là kết quả của nhóm, được Codex chạy lại để soát báo cáo. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
 ## 5. Công cụ AI đã dùng
 
@@ -39,8 +50,8 @@ Quốc tự bổ sung sau CP3. Nêu một tiêu chí đã đạt kèm bằng ch�
 | Thời điểm | Việc cần làm | Trạng thái |
 | --- | --- | --- |
 | Trước CP3 | Đọc mục “Hai mươi ca lỗi” trong [đề bài](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) và ghi riêng 20 nhãn trong 8 phút. | Chưa có bộ nhãn của Quốc trong repo. |
-| Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Đã có phần tham khảo do Codex soạn. Chờ hai bộ gốc và kết quả nhóm thống nhất. |
-| Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. Chờ A/B, xác nhận phương án và kết quả duyệt chéo. |
+| Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Đã có phần tham khảo do Codex soạn. Dũng đã nộp phiếu riêng. Còn chờ phiếu độc lập của Quốc và kết quả đối chiếu. |
+| Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. A/B đã đối chiếu. Hồ sơ hiện đề xuất No-go và đang chờ kết quả duyệt chéo. |
 | Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã có khung sáu mục và ghi chú về việc dùng Codex. |
 | Khi nhóm chốt bài | Với vai trò trưởng nhóm, rà danh sách tệp và xác nhận commit nhóm đã đẩy lên GitHub. Dùng tài khoản cá nhân của Quốc nộp link repo lên LMS. | Chưa xác nhận bài nhóm đã chốt hoặc Quốc đã nộp LMS. |
 

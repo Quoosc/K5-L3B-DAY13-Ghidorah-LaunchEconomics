@@ -32,9 +32,9 @@
 - Kết quả A4: 45.000 yêu cầu/tháng cho 33.750 việc thành công; chi phí cố định 1.185 đ/việc; tổng 4.599 đ = 0,38× [simulated]; giảm nửa khối lượng là 5.784 đ = 0,48× [simulated].
 - Kết quả B1: làm lại gấp đôi làm chi phí tăng +51,8%; xem lại gấp đôi +40,7%; lương tăng 25% +23,1%; token gấp đôi chỉ +5,6%.
 - Kết quả B3: giới hạn 2 lần chạy rẻ nhất cho công ty (6.901.220 đ [simulated]); giới hạn 1 lần có chi phí mỗi việc thành công thấp nhất (4.111 đ [simulated]).
-- Kết quả B4: xem lại 100% cho 11.743 đ = 0,98× [simulated]; với 15,3 phút làm lại thực tế là 12.415 đ = 1,03× [simulated].
+- Kết quả B4: xem lại 100% cho 11.743 đ = 0,98× [simulated]; với 15,3 phút làm lại theo dữ liệu giả lập là 12.415 đ = 1,03× [simulated].
 - Tự kiểm tra bằng phép tính tay: 890 phút xem lại × 2.000 đ/phút = 1.780.000 đ; tổng 245.585 + 84.000 + 1.780.000 + 2.264.000 = 4.373.585 đ.
-- Chưa tạo commit trong lượt làm này; nhóm sẽ commit và push khi đóng gói bài nộp.
+- Phần code và bảng A/B đã được đưa vào nhánh main tại commit `dc8e753`.
 
 ## 5. Công cụ AI đã dùng
 

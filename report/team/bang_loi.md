@@ -8,7 +8,7 @@ Người gắn nhãn 1: Phạm Trấn Quốc · Người gắn nhãn 2: Trần A
 
 Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến khi cả hai đã hoàn tất. Sau đó chép nguyên hai bộ vào bảng. Mọi thay đổi sau khi thảo luận được ghi ở cột “Nhãn thống nhất”.
 
-**Nhận phiếu:** Chờ hai bộ nhãn gốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
+**Nhận phiếu:** Đã có phiếu riêng của Dũng gồm 20 ca. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
 
 | Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến
 
 **Tỉ lệ đồng thuận:** ... / 20 = ...%
 
-**Mã ca bất đồng:** Chờ hai bộ nhãn gốc.
+**Mã ca bất đồng:** Xác định sau khi nhận phiếu của Quốc và so hai bộ gốc.
 
 **Tỉ lệ khớp đáp án giảng viên:** Chờ đáp án chính thức và nhãn thống nhất.
 
