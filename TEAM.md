@@ -7,7 +7,7 @@
 - Repo nhóm: `K5-L3B-DAY13-Ghidorah-LaunchEconomics`
 - URL repo: [github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics](https://github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics)
 - Nhánh nộp: `main`
-- Commit chốt: cập nhật mã commit cuối trước khi nộp.
+- Commit chốt: [Bản hồ sơ đã kiểm tra](https://github.com/Quoosc/K5-L3B-DAY13-Ghidorah-LaunchEconomics/commit/aac7b68d2988a003f8c9627b337f6dbbc6319a8c).
 
 ## Thành viên và phân công
 
