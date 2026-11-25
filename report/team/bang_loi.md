@@ -8,32 +8,32 @@ Người gắn nhãn 1: Phạm Trấn Quốc · Người gắn nhãn 2: Trần A
 
 Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến khi cả hai đã hoàn tất. Sau đó chép nguyên hai bộ vào bảng. Mọi thay đổi sau khi thảo luận được ghi ở cột “Nhãn thống nhất”.
 
-**Nhận phiếu:** Đã có phiếu riêng của Dũng gồm 20 ca. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
+**Nhận phiếu:** Cột Dũng được chép theo mã ca từ [phiếu gốc](../../docs/CP3_phieu_TranAnhDung.md) tại commit `97505fa`. Dấu — biểu thị ô đang chờ dữ liệu. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
 
-| Ca | Nhãn người 1 | Nhãn người 2 | Trùng? | Nhãn thống nhất |
+| Ca | Quốc | Dũng | Trùng? | Nhãn thống nhất |
 | --: | --- | --- | --- | --- |
-| 1 | ... | ... | ... | ... |
-| 2 | ... | ... | ... | ... |
-| 3 | ... | ... | ... | ... |
-| 4 | ... | ... | ... | ... |
-| 5 | ... | ... | ... | ... |
-| 6 | ... | ... | ... | ... |
-| 7 | ... | ... | ... | ... |
-| 8 | ... | ... | ... | ... |
-| 9 | ... | ... | ... | ... |
-| 10 | ... | ... | ... | ... |
-| 11 | ... | ... | ... | ... |
-| 12 | ... | ... | ... | ... |
-| 13 | ... | ... | ... | ... |
-| 14 | ... | ... | ... | ... |
-| 15 | ... | ... | ... | ... |
-| 16 | ... | ... | ... | ... |
-| 17 | ... | ... | ... | ... |
-| 18 | ... | ... | ... | ... |
-| 19 | ... | ... | ... | ... |
-| 20 | ... | ... | ... | ... |
+| 1 | — | Do người dùng | — | — |
+| 2 | — | Hệ thống | — | — |
+| 3 | — | Ngữ cảnh | — | — |
+| 4 | — | Giới hạn hệ thống | — | — |
+| 5 | — | Ngầm | — | — |
+| 6 | — | Do người dùng | — | — |
+| 7 | — | Hệ thống | — | — |
+| 8 | — | Hệ thống | — | — |
+| 9 | — | Do người dùng | — | — |
+| 10 | — | Ngữ cảnh | — | — |
+| 11 | — | Giới hạn hệ thống | — | — |
+| 12 | — | Ngầm | — | — |
+| 13 | — | Giới hạn hệ thống | — | — |
+| 14 | — | Do người dùng | — | — |
+| 15 | — | Hệ thống | — | — |
+| 16 | — | Ngữ cảnh | — | — |
+| 17 | — | Ngầm | — | — |
+| 18 | — | Ngữ cảnh | — | — |
+| 19 | — | Giới hạn hệ thống | — | — |
+| 20 | — | Hệ thống | — | — |
 
-**Tỉ lệ đồng thuận:** ... / 20 = ...%
+**Đồng thuận Quốc–Dũng** chưa tính được vì mới có một phiếu gốc.
 
 **Mã ca bất đồng:** Xác định sau khi nhận phiếu của Quốc và so hai bộ gốc.
 
