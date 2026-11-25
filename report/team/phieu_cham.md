@@ -13,10 +13,18 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 | Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | ... | ... |
 | **Tổng** | | | | **... / 30** | |
 
-**Quyết định của hội đồng:** Chờ buổi duyệt. Chọn Go, Go có điều kiện hoặc No-go sau khi chấm.
+**Quyết định của hội đồng:** Chưa có thông tin để ghi nhận quyết định Go, Go có điều kiện hoặc No-go.
 
 **Nhận xét dự thảo:** Khi chốt phiếu, dẫn số liệu từ hồ sơ ToiYeuVinFast để kiểm tra phạm vi pilot, cỡ mẫu hiệu dụng và ngưỡng dừng.
 
-**Câu hỏi chuẩn bị cho đội trình:** Nhóm cần bao nhiêu yêu cầu hiệu dụng ở mỗi nhánh sau khi tính đến cách chia cụm, và sẽ xử lý thế nào nếu thu không đủ mẫu?
+## Câu hỏi hai nhóm trao đổi khi duyệt chéo
 
-**Câu trả lời của đội trình (ghi lại tại buổi):** ...
+Ghidorah và ToiYeuVinFast đã trao đổi năm câu dưới đây. Chưa ghi nhận bên đặt từng câu hoặc câu trả lời thực tế tại buổi duyệt.
+
+1. **Lịch pilot.** Báo cáo ghi mỗi bậc kéo dài một tuần, nhưng ở bậc 50% cần khoảng 10 ngày làm việc để mỗi nhân viên đạt 299 yêu cầu. Nếu hết tuần vẫn thiếu mẫu, nhóm sẽ kéo dài bậc 50% và dời ngày quyết định như thế nào?
+2. **Điều kiện Go.** Khi xem lại 100% và làm lại mất 15,3 phút mỗi ca, chi phí giả lập lên 12.415 đ, vượt mốc 12.000 đ. Nhóm sẽ dùng ngưỡng chi phí và tiêu chí an toàn nào để quyết định có thể giảm tỉ lệ xem lại?
+3. **Luật dừng khi hoàn trùng.** Nếu phát hiện một ca hoàn tiền trùng vào ngày đầu, nhóm tắt trợ lý trong 30 phút hay chờ đủ ba ngày? Bảng lỗi ghi có ca là dừng, còn bảng pilot gộp điều kiện này vào cửa sổ ba ngày liên tiếp.
+4. **Tính độc lập của CP3.** Hai bộ nhãn khớp 20/20, nhưng AI hỗ trợ người gắn nhãn thứ nhất đã đọc đáp án tham khảo. Nhóm sẽ kiểm tra lại bằng cách nào để có bằng chứng về đồng thuận độc lập?
+5. **Kết luận khi pilot chưa rõ tác động.** Thiết kế nhắm mức chênh 6 điểm phần trăm, còn power chỉ khoảng 64% nếu tác động thực là 5 điểm. Nếu kết quả không có ý nghĩa thống kê, nhóm sẽ dựa vào tiêu chí nào để quyết định dừng, kéo dài hay thiết kế lại pilot?
+
+Các đề xuất xử lý của Ghidorah sau khi rà câu hỏi nằm trong [kế hoạch pilot](pilot_plan.yaml) và [bảng lỗi CP3](bang_loi.md).

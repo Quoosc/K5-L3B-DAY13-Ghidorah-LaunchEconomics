@@ -23,11 +23,15 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 Chi phí mỗi việc thành công là 4.472 đ [simulated]. Giới hạn 2 lần chạy cho chi phí cả hệ thống khoảng 5.751 đ/yêu cầu [simulated], so với mốc 12.000 đ tự làm. Làm lại gấp đôi làm chi phí mỗi việc thành công tăng 51,8% [simulated].
 
-Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast trong [phiếu chấm của Ghidorah](phieu_cham.md). Chưa ghi nhận kết quả hội đồng chấm Ghidorah.
+Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng.
+
+Ghidorah và ToiYeuVinFast đã trao đổi năm câu hỏi về lịch pilot, điều kiện giảm xem lại, luật dừng khi hoàn trùng, tính độc lập của CP3 và cách xử lý kết quả chưa rõ. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast. Chưa ghi nhận điểm hội đồng chấm Ghidorah hoặc câu trả lời thực tế tại buổi duyệt. Xem [phiếu chấm và câu hỏi hai nhóm](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo).
 
 ## 5. Khó khăn và cách xử lý
 
-Mẫu lịch sử có 20 nhân viên tại 6 depot. Trước khi trình pilot, Giám đốc vận hành cần xác nhận 40 nhân viên đủ điều kiện, danh sách phân nhánh và dự báo đủ 299 yêu cầu mỗi người. Nếu thiếu người hoặc sản lượng, nhóm cần tính lại cỡ mẫu.
+Mẫu lịch sử có 20 nhân viên tại 6 depot. Trước khi trình pilot, Giám đốc vận hành cần xác nhận 40 nhân viên đủ điều kiện, danh sách phân nhánh và dự báo đủ 299 yêu cầu mỗi người. Nếu chỉ có 20 người, chia 10+10 có trần dưới 500 yêu cầu hiệu dụng mỗi nhánh, thấp hơn 859. Giữ No-go cho thiết kế hiện tại, tiếp tục xử lý thủ công và tuyển thêm người hoặc trình lại thiết kế có đối chứng.
+
+Hai bậc 10% và 25% thu yêu cầu trong 7 ngày rồi chờ đủ theo dõi an toàn. Ở bậc 50%, hết tuần chỉ kiểm tiến độ tuyển. Nếu thiếu mẫu, giữ nguyên hai nhánh và thu tiếp trong giới hạn đã chốt trước. Ngày quyết định tính từ ngày khóa mẫu thực tế, khi đã đủ 8 ngày theo dõi và hoàn tất rà an toàn. Một ca hoàn trùng kích hoạt tắt trợ lý trong 30 phút kể từ lúc phát hiện.
 
 ## 6. Tổng hợp đóng góp
 
