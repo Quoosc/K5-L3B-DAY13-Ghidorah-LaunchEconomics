@@ -37,6 +37,8 @@ Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `g
 
 Các số trên là kết quả của nhóm, được Codex chạy lại để soát báo cáo. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
+**Kết quả soát CP3 do Codex thực hiện.** Đối chiếu theo mã ca giữa phiếu Dũng (commit `97505fa`) và bảng tham khảo của Codex cho kết quả 20/20 ca trùng (100%). Tỉ lệ đồng thuận giữa Quốc và Dũng đang chờ phiếu riêng của Quốc. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
+
 ## 5. Công cụ AI đã dùng
 
 ChatGPT qua Codex được dùng để rà yêu cầu, đối chiếu 20 tình huống với tài liệu hướng dẫn, viết phần tính cỡ mẫu và chỉ số, và soạn các bản dự thảo dùng để điều phối nhóm. Bộ nhãn độc lập và phần tự kiểm tra của Quốc sẽ được ghi riêng sau khi Quốc thực hiện.
