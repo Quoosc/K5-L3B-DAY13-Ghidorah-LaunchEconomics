@@ -1,6 +1,6 @@
 # Báo cáo cá nhân — Phạm Trấn Quốc
 
-**Trạng thái:** Tài khoản nhóm trưởng đã bàn giao phân công và hồ sơ tại hai commit dưới đây. A/B, D1 và E1 đã chạy được trên bản nhóm. Phần cá nhân còn cần phiếu CP3 của Quốc, kết quả đối chiếu với Dũng và tự đánh giá của Quốc.
+**Trạng thái:** Tài khoản nhóm trưởng đã bàn giao phân công và hồ sơ tại hai commit dưới đây. A/B, D1 và E1 đã chạy được trên bản nhóm. Quốc đã kiểm tra hồ sơ và xác nhận 20 nhãn CP3 từ bảng tham khảo. Việc đo đồng thuận độc lập cần hai phiếu gốc.
 
 ## 1. Thông tin thành viên
 
@@ -21,7 +21,7 @@ Theo dõi tiêu chí hoàn thành của các checkpoint. Ở CP3, tự gắn nh�
 | Công bố phân công và bàn giao tài liệu cho nhóm | Phạm Trấn Quốc | Commit `1c0c363` cập nhật TEAM.md. Commit `a94f634` bàn giao phiếu trắng, phân công và bản nháp Gate 2a qua tài khoản Quoosc. |
 | Bàn giao phiếu CP3 và tài liệu đối chiếu | Phạm Trấn Quốc | [Phiếu trắng](../../docs/CP3_phieu_gan_nhan_trang.md), [phần tham khảo CP3](bang_loi.md#phân-tích-tham-khảo). Phạm vi hỗ trợ được ghi ở mục 5. |
 | Điều phối rà cỡ mẫu, chỉ số và hồ sơ nhóm | Phạm Trấn Quốc | [Mã tính](../../src/lab13.py), [D1/D2](pilot_plan.yaml), [E1](chi_so.md). Phạm vi hỗ trợ được ghi ở mục 5. |
-| Gắn nhãn độc lập, đối chiếu và tự kiểm báo cáo | Phạm Trấn Quốc | Chờ bộ nhãn gốc và xác nhận phần trực tiếp thực hiện. |
+| Gắn nhãn độc lập, đối chiếu và tự kiểm báo cáo | Phạm Trấn Quốc | Quốc đã kiểm tra hồ sơ và xác nhận bộ nhãn tham khảo. Phiếu độc lập vẫn chưa được ghi nhận. |
 
 ## 4. Bằng chứng
 
@@ -37,21 +37,21 @@ Hai mốc bàn giao có thể kiểm tra bằng `git show --stat 1c0c363` và `g
 
 Các số trên là kết quả của nhóm. Đề xuất hiện tại là **No-go**. Bằng chứng tính toán nằm trong [bảng chi phí](bang_chi_phi.md) và [kế hoạch pilot](pilot_plan.yaml). Kết quả CP3 của hai thành viên sẽ được ghi trong [bảng lỗi](bang_loi.md) sau khi nhận phiếu độc lập của Quốc.
 
-**Đối chiếu tham khảo CP3.** Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với [bảng tham khảo](../../docs/CP3_doi_chieu_tham_khao.md). Tỉ lệ đồng thuận giữa Quốc và Dũng đang chờ phiếu riêng của Quốc. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
+**Đối chiếu CP3.** [Phiếu xác nhận của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) ghi đủ 20 nhãn từ bảng tham khảo theo xác nhận của Quốc. Phiếu Dũng (commit `97505fa`) trùng 20/20 ca với bộ nhãn này. Tỉ lệ đồng thuận độc lập vẫn chờ bộ nhãn gốc của Quốc. Năm ca đại diện trong [bảng lỗi](bang_loi.md) có cách phát hiện, hành động và vai trò phụ trách.
 
 ## 5. Công cụ AI đã dùng
 
-Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiếu trắng, bản nháp hồ sơ và gợi ý tự đánh giá, phân tích tham khảo 20 ca, đối chiếu với phiếu Dũng, viết phần tính D1/E1 và chạy lại số liệu. Bộ nhãn độc lập và phần tự kiểm tra của Quốc sẽ được ghi riêng sau khi Quốc thực hiện.
+Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiếu trắng, bản nháp hồ sơ và gợi ý tự đánh giá, phân tích tham khảo 20 ca, đối chiếu với phiếu Dũng, viết phần tính D1/E1 và chạy lại số liệu. Quốc đã rà lại hồ sơ và kiểm tra 20 nhãn ghi trên phiếu xác nhận.
 
 ## 6. Tự đánh giá
 
-**Gợi ý tự đánh giá, chờ Quốc xác nhận.** Phần điều phối có thể kiểm tra qua hai commit phân công và bàn giao. Nhóm đã nối kết quả A/B với quyết định pilot. Ở kịch bản xem lại toàn bộ và làm lại 15,3 phút, chi phí 12.415 đ/việc [simulated] vượt mốc nhân viên tự làm 12.000 đ. Vì vậy đề xuất hiện tại là No-go. Điểm cần cải thiện trong khâu điều phối là thu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo để nhóm đo được mức đồng thuận độc lập.
+**Tự đánh giá đã được Quốc rà soát.** Phần điều phối có thể kiểm tra qua hai commit phân công và bàn giao. Nhóm đã nối kết quả A/B với quyết định pilot. Ở kịch bản xem lại toàn bộ và làm lại 15,3 phút, chi phí 12.415 đ/việc [simulated] vượt mốc nhân viên tự làm 12.000 đ. Vì vậy đề xuất hiện tại là No-go. Điểm cần cải thiện trong khâu điều phối là thu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo để nhóm đo được mức đồng thuận độc lập.
 
 ## Danh sách việc của Quốc
 
 | Thời điểm | Việc cần làm | Trạng thái |
 | --- | --- | --- |
-| Trước CP3 | Đọc mục “Hai mươi ca lỗi” trong [đề bài](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) và ghi riêng 20 nhãn trong 8 phút. | Chưa có bộ nhãn của Quốc trong repo. |
+| Trước CP3 | Đọc mục “Hai mươi ca lỗi” trong [đề bài](../../docs/Ngay13_Lab13_De_bai_hoc_vien.docx) và ghi riêng 20 nhãn trong 8 phút. | Có phiếu xác nhận từ nhãn tham khảo. Chưa có bộ nhãn độc lập của Quốc. |
 | Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Đã có phần tham khảo và phiếu riêng của Dũng. Còn chờ phiếu độc lập của Quốc và kết quả đối chiếu. |
 | Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. A/B đã đối chiếu. Hồ sơ hiện đề xuất No-go và đang chờ kết quả duyệt chéo. |
 | Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã có khung sáu mục và khai báo công cụ ở mục 5. |

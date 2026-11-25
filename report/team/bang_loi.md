@@ -35,6 +35,8 @@ Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến
 
 **Đồng thuận Quốc–Dũng** chưa tính được vì mới có một phiếu gốc.
 
+**Phiếu xác nhận của Quốc:** [20 nhãn dựa trên bảng tham khảo](../../docs/CP3_phieu_PhamTranQuoc.md), trùng 20/20 với phiếu Dũng. Kết quả này là đối chiếu tài liệu. Cột phiếu độc lập vẫn chờ dữ liệu gốc.
+
 **Mã ca bất đồng:** Xác định sau khi nhận phiếu của Quốc và so hai bộ gốc.
 
 **Tỉ lệ khớp đáp án giảng viên:** Chờ đáp án chính thức và nhãn thống nhất.

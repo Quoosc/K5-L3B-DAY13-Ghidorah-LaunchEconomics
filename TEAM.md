@@ -36,6 +36,8 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 ### Phạm Trấn Quốc — 2A202604113
 
+Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [phiếu xác nhận CP3](docs/CP3_phieu_PhamTranQuoc.md).
+
 **Phần việc phụ trách:** Người gắn nhãn 1; điều phối nhóm và theo dõi tiêu chí hoàn thành.
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
