@@ -40,6 +40,8 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 
 ## A4 · Chi phí cố định (phạm vi noi_dia + hang_nang)
 
+Khối lượng trong bảng tính trên toàn bộ yêu cầu của công ty. Dùng tỷ trọng 900 việc thành công trong phạm vi trên 1.200 yêu cầu toàn mẫu để ước tính số việc thành công mỗi tháng.
+
 | Khối lượng | Việc thành công mỗi tháng | Chi phí cố định mỗi việc | Chi phí mỗi việc thành công + cố định | So với 12.000 đ [simulated] |
 | --- | ---: | ---: | ---: | ---: |
 | 45.000 yêu cầu/tháng | 33.750 | 1.185 đ | 4.599 đ [simulated] | 0,38× |
@@ -78,5 +80,7 @@ Số tính bằng `src/lab13.py`. Mọi con số tính từ cột `_simulated` g
 
 ## B4 · Nếu phải xem lại tất cả
 
-- Khi xem lại cả 948 yêu cầu có ít nhất một run `ok` trong phạm vi `noi_dia` + `hang_nang`, chi phí là **11.743 đ/việc = 0,98×** [simulated]. Cộng 948 × 5 × 2.000 đ xem lại, 48 × 9 × 2.000 đ làm lại và 224.513 đ token + tool, rồi chia 900 việc thành công.
+- Khi xem lại cả 948 yêu cầu có ít nhất một run `ok` trong phạm vi `noi_dia` + `hang_nang`, chi phí là **11.743 đ/việc thành công = 0,98×** [simulated]. Cộng 948 × 5 × 2.000 đ xem lại, 48 × 9 × 2.000 đ làm lại và 224.513 đ token + tool, rồi chia 900 việc thành công.
 - Với kịch bản **15,3 phút/ca** làm lại, chi phí là **12.415 đ = 1,03×**. Dùng trung bình từ cột giả lập của 48 ca trong phạm vi (**16,25 phút/ca**) thì lên **12.516 đ = 1,04×** [simulated]. Pilot cần đo tỉ lệ và phút xem lại. Mốc hòa vốn khoảng **5,1 phút** mỗi lần xem lại nếu làm lại 9 phút, hoặc **4,8 phút** nếu làm lại 15,3 phút [simulated].
+
+Các tỷ số B4 so chi phí trên mỗi việc thành công với mốc tham chiếu của đề. Để quyết định triển khai, so chi phí cả hệ thống trên mỗi yêu cầu, kể cả phần xử lý thủ công, như cách đặt mẫu số ở B3.

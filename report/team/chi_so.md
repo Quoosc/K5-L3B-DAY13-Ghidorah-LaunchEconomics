@@ -25,6 +25,7 @@
 | `ticket_reopened` | Dịch vụ ticket | request_id, trace_id, reopened_at, reason | Mỗi lần mở lại |
 | `refund_audit_completed` | Kế toán | request_id, trace_id, số tiền đã hoàn, số tiền phải hoàn, audited_at | Khi hoàn tất đối soát từng yêu cầu |
 | `staff_rework_completed` | Giao diện CSKH | request_id, trace_id, phút làm lại, reason | Khi nhân viên làm lại xong |
+| `staff_manual_handling_completed` | Giao diện CSKH | request_id, trace_id, work_id, phút xử lý thủ công, luồng đối chứng hoặc chuyển người | Khi hoàn tất phần xử lý thủ công |
 | `agent_run_completed` | Trợ lý | request_id, trace_id, attempt, tokens_in, tokens_out, tool_calls, status | Khi kết thúc mỗi lần chạy |
 | `refund_ledger_write` | Sổ cái | request_id, trace_id, mã khoản hoàn, mã bút toán, idempotency_key, trạng thái ghi sổ | Sau mỗi lần ghi hoặc từ chối ghi |
 
@@ -37,6 +38,7 @@
 - Tỉ lệ hoàn sai: dùng `refund_audit_completed`, đối chiếu hai khoản tiền cho mỗi yêu cầu trong mẫu.
 - Gắn `trace_id` ngay khi nhận yêu cầu, kể cả nhánh đối chứng. Khi một yêu cầu có nhiều lần chạy, dùng cùng mã liên kết và phân biệt bằng `attempt`.
 - Luật dừng do hoàn trùng dùng `refund_ledger_write`, đếm các bút toán thành công có mã bút toán khác nhau cho cùng mã khoản hoàn.
+- Chi phí cả hệ thống: ghép lượt chạy, xem lại, làm lại và xử lý thủ công theo `request_id`. Mỗi thao tác lao động chỉ được ghi ở một loại sự kiện. Cộng chi phí trên tất cả yêu cầu đủ điều kiện, kể cả yêu cầu chuyển nhân viên, rồi chia cho số yêu cầu đó.
 
 ## E2 · Rủi ro kinh tế
 
@@ -45,4 +47,4 @@
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
 | Tần suất làm lại tăng | B1: Làm lại gấp đôi làm chi phí mỗi việc thành công tăng **+51,8%**, từ 4.472 đ lên **6.787 đ** [simulated] (`bang_chi_phi.md`). | Tỉ lệ yêu cầu có lần làm lại theo loại và theo tuần. | Phân tích nguyên nhân theo loại trước khi mở rộng pilot. | PM trợ lý hoàn phí |
-| Phải xem lại toàn bộ kéo dài | B4: Xem lại 100% (`noi_dia` + `hang_nang`) tốn **11.743 đ = 0,98×** (9 phút làm lại) hoặc **12.415 đ = 1,03×** (15,3 phút làm lại theo dữ liệu giả lập) so với mốc 12.000 đ [simulated]. Hoà vốn khi xem lại ≤ 5,1 phút (≤ 4,8 phút ở 15,3 phút). | Phần trăm yêu cầu có người xem lại, phút xem lại và làm lại thực đo, kết quả đối soát sai tiền và hoàn trùng, tỷ lệ mở lại. | Thử giảm theo bậc ở ca nội địa chuẩn. Chỉ duy trì mức xem lại thấp hơn khi an toàn đạt và chi phí thực của cả hệ thống dưới 12.000 đ/yêu cầu theo [kế hoạch pilot](pilot_plan.yaml). | Trưởng nhóm CSKH |
+| Phải xem lại toàn bộ kéo dài | B4: Xem lại 100% (`noi_dia` + `hang_nang`) tốn **11.743 đ/việc thành công** với 9 phút làm lại hoặc **12.415 đ/việc thành công** với 15,3 phút [simulated]. | Tỉ lệ có người xem lại, phút lao động đo thật, kết quả đối soát sai tiền và hoàn trùng, tỷ lệ mở lại. | Thử giảm theo bậc ở ca nội địa chuẩn. Chỉ duy trì mức xem lại thấp hơn khi an toàn đạt và chi phí thực của cả hệ thống dưới 12.000 đ/yêu cầu theo [kế hoạch pilot](pilot_plan.yaml). | Trưởng nhóm CSKH |

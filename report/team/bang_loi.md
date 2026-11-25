@@ -29,7 +29,7 @@ Phạm Trấn Quốc đã rà soát và xác nhận các nhãn dựa trên bản
 | 19 | Giới hạn hệ thống | Giới hạn hệ thống | Trùng |
 | 20 | Hệ thống | Hệ thống | Trùng |
 
-**Hai phiếu khớp 20/20 ca (100%).** Không có mã ca khác nhãn cần giải thích trong lần đối chiếu này. Phiếu Quốc xác nhận dùng nhãn tham khảo. Để tính đồng thuận độc lập cần bộ nhãn Quốc lập trước khi xem tham khảo. Chưa có kết quả đối chiếu với đáp án chính thức của giảng viên.
+**Đối chiếu tham khảo: 20/20 ca trùng (100%).** Phiếu Quốc xác nhận từ nhãn tham khảo được ghép với phiếu gốc của Dũng. Đồng thuận độc lập và mức khớp đáp án chính thức thuộc các mục kiểm tra riêng của tiêu chí C3. Xem [gắn nhãn độc lập (lượt bổ sung)](#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung).
 
 ## Quốc trình bày CP3 khi duyệt chéo
 
@@ -97,9 +97,9 @@ Chỉ mở sau khi cả hai đã ghi xong bộ nhãn độc lập. Phần này d
 
 </details>
 
-## CP3 – Lượt bổ sung
+## CP3 – Gắn nhãn độc lập (lượt bổ sung)
 
-**Trạng thái: Đang chờ hướng dẫn của giảng viên.** Tính đến 25/11/2026, repo chưa có văn bản hướng dẫn mới và chưa có bộ ca mới nào được chấp thuận cho lượt bổ sung. Vì vậy chưa thể lập hai phiếu trắng, chưa có nhãn để đối chiếu và chưa tính được tỉ lệ đồng thuận. Hai phiếu cũ và kết quả 20/20 trong mục “Đối chiếu tham khảo” ở trên được giữ nguyên.
+**Trạng thái: Chờ hướng dẫn của giảng viên.** Hồ sơ hiện có một phiếu độc lập của Dũng và một phiếu xác nhận nhãn tham khảo của Quốc. Chờ bộ ca mới được chấp thuận hoặc phương án đánh giá thay thế để hoàn tất tiêu chí C3.
 
 | Hạng mục | Trạng thái | Ghi chú |
 | --- | --- | --- |

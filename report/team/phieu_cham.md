@@ -6,16 +6,18 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 - Nhóm được chấm: ToiYeuVinFast
 - Đánh giá tổng quan: **9/10**.
 
+**Điểm đề xuất sau khi đọc hồ sơ công khai.** Các điểm dưới đây chờ hội đồng Ghidorah xác nhận. [Hồ sơ launch của đội bạn](https://github.com/lit1numyt/K5-L3B-DAY13-ToiYeuVinFast-LaunchEconomics/blob/e8ba613415ea76effce924d017e4dc01b29997cd/report/team/ho_so_launch_v0.md) · [Bảng chi phí](https://github.com/lit1numyt/K5-L3B-DAY13-ToiYeuVinFast-LaunchEconomics/blob/e8ba613415ea76effce924d017e4dc01b29997cd/report/team/bang_chi_phi.md) · [Kế hoạch pilot](https://github.com/lit1numyt/K5-L3B-DAY13-ToiYeuVinFast-LaunchEconomics/blob/e8ba613415ea76effce924d017e4dc01b29997cd/report/team/pilot_plan.yaml)
+
 | Tiêu chí | 0 điểm | 5 điểm | 10 điểm | Điểm | Lý do (có số) |
 | --- | --- | --- | --- | ---: | --- |
-| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | Chờ xác nhận | Cần đề xuất của ToiYeuVinFast và các số dùng để bảo vệ đề xuất. |
-| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | Chờ xác nhận | Cần bảng kết quả và căn cứ đội dùng để giới hạn phạm vi. |
-| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | Chờ xác nhận | Cần kế hoạch của đội, gồm đối chứng, cỡ mẫu và luật dừng. |
-| **Tổng** | | | | **Chưa chốt / 30** | Điểm tổng quan 9/10 được ghi riêng. |
+| Đề xuất khớp bằng chứng | Mâu thuẫn với số của chính nhóm | Khớp nhưng bỏ qua một con số bất lợi | Khớp, nêu cả con số bất lợi và cách xử lý | 10/10 | Go có điều kiện phù hợp với B4: chi phí tăng từ 11.743 lên 12.415 đ/việc [simulated] khi thời gian làm lại tăng từ 9 lên 15,3 phút. Đội yêu cầu đo thời gian thực và chốt cách giảm xem lại an toàn. |
+| Số giả lập và phạm vi | Không nhãn; phạm vi "mọi yêu cầu" | Có nhãn hoặc có thu hẹp phạm vi | Nhãn ở mọi số giả lập; phạm vi thu hẹp có lý do bằng số | 10/10 | Hồ sơ gắn nhãn simulated cho chi phí, giới hạn pilot ở nội địa và hàng nặng. Quốc tế tốn 22.515 đ/việc [simulated], chỉ thành công 27,3%; đối tác thành công 54,4% và có điều khoản riêng. |
+| Pilot ra được quyết định | Không đối chứng hoặc thiếu cỡ mẫu | Đủ cỡ mẫu, luật dừng chung chung | Tách được tác động, đủ mẫu, luật dừng có ngưỡng, thời hạn, người có quyền dừng | 5/10 | Có đối chứng đồng thời, 20 nhân viên/nhánh, mục tiêu 299 yêu cầu/người. Lịch ghi mỗi bậc một tuần trong khi bậc 50% cần khoảng 10 ngày làm việc. Luật dừng gộp một ca hoàn trùng vào cửa sổ ba ngày, khiến thời điểm bắt đầu tính 30 phút tắt trợ lý chưa rõ. |
+| **Tổng** | | | | **25/30 đề xuất** | Điểm tổng quan 9/10 được ghi riêng. |
 
 **Quyết định của hội đồng:** Chưa có thông tin để ghi nhận quyết định Go, Go có điều kiện hoặc No-go.
 
-**Nhận xét dự thảo:** Khi chốt phiếu, dẫn số liệu từ hồ sơ ToiYeuVinFast để kiểm tra phạm vi pilot, cỡ mẫu hiệu dụng và ngưỡng dừng.
+**Kiến nghị để hội đồng xem xét:** Go có điều kiện cho kế hoạch pilot của ToiYeuVinFast nếu đội quy định cách kéo dài hoặc dừng tuyển khi thiếu mẫu và ghi rõ thời hạn xử lý ngay từ ca hoàn trùng đầu tiên.
 
 ## Câu hỏi hai nhóm trao đổi khi duyệt chéo
 
@@ -32,7 +34,7 @@ Các đề xuất xử lý của Ghidorah sau khi rà câu hỏi nằm trong [k�
 ### Phản hồi bằng văn bản của Ghidorah sau khi rà hồ sơ
 
 1. **Lịch pilot.** Hết tuần đầu ở bậc 50%, kiểm tiến độ thu mẫu. Giữ hai nhánh và thu tiếp đến khi đủ mẫu trong giới hạn 15 ngày làm việc đề xuất. Ngày quyết định tính từ lúc khóa mẫu thực tế, sớm nhất 8 ngày sau ca cuối và sau khi đã rà xong an toàn.
-2. **Giảm xem lại.** Thử từng bậc trên ca nội địa chuẩn. Chỉ giữ mức xem lại thấp hơn khi chi phí cả hệ thống đo thực tế dưới 12.000 đ/yêu cầu, không có hoàn trùng hoặc sai tiền trong mẫu đối soát, và qua ba lần rà có tỷ lệ mở lại không quá 6% và chênh dưới 2 điểm so với đối chứng.
+2. **Giảm xem lại.** B4 báo 12.415 đ/việc thành công [simulated]. Mốc vận hành dùng đ/yêu cầu. Thử từng bậc trên ca nội địa chuẩn và chỉ giữ mức thấp hơn khi chi phí cả hệ thống đo thật dưới 12.000 đ/yêu cầu, không có hoàn trùng hoặc sai tiền trong mẫu đối soát, và qua ba lần rà có tỷ lệ mở lại không quá 6% và chênh dưới 2 điểm so với đối chứng.
 3. **Hoàn trùng.** Từ một ca, Giám đốc vận hành tắt trợ lý trong vòng 30 phút kể từ lúc phát hiện, chuyển yêu cầu về nhân viên và giao kế toán đối soát. Cửa sổ ba lần rà chỉ áp dụng cho tỷ lệ mở lại.
-4. **CP3.** Kết quả 20/20 là mức trùng khi Quốc xác nhận nhãn tham khảo và so với phiếu gốc của Dũng. Nhóm đã chuẩn bị xin giảng viên bộ ca mới hoặc cách đánh giá thay thế, rồi sẽ lưu riêng hai phiếu trước khi đối chiếu nếu được làm lại.
-5. **Hiệu quả chưa rõ.** Báo chênh lệch và khoảng tin cậy 95% có tính đến cụm. Nếu cận trên dưới +5 điểm phần trăm, dừng vì chưa ủng hộ mức cải thiện tối thiểu. Nếu khoảng vẫn chứa cả 0 và +5 điểm, giữ No-go và trình thiết kế mới. Chỉ kéo dài thu mẫu theo quy tắc định trước khi xem hiệu quả chính.
+4. **CP3.** Kết quả đối chiếu tham khảo là 20/20 ca trùng giữa phiếu Quốc xác nhận và phiếu gốc của Dũng. [Gắn nhãn độc lập (lượt bổ sung)](bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung) đang chờ giảng viên hướng dẫn. Nếu được làm lại, hai người lưu riêng phiếu trước khi đối chiếu.
+5. **Hiệu quả chưa rõ.** Báo chênh lệch và khoảng tin cậy 95% có tính đến cụm. Nếu cận trên dưới +5 điểm phần trăm, dừng. Nếu khoảng còn bao gồm cả giá trị chưa đạt và mức +5 điểm, giữ No-go và xem xét thiết kế lại. Chỉ trình mở rộng khi cận dưới đạt +5 điểm và đạt cả ngưỡng an toàn lẫn chi phí. Chỉ kéo dài thu mẫu theo quy tắc định trước khi xem hiệu quả chính.

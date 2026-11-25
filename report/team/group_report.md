@@ -15,7 +15,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 ## 3. Giải pháp
 
 - A/B dùng trace và dữ liệu yêu cầu để tính chi phí, so với nhân viên tự làm và phân tích độ nhạy. Kết quả đã được đối chiếu với code chạy trên hai CSV. Chi tiết ở [bảng chi phí](bang_chi_phi.md).
-- Quốc đã xác nhận từng nhãn dựa trên bảng tham khảo. Đối chiếu theo mã với phiếu gốc của Dũng cho 20/20 ca trùng. Chưa có số đo đồng thuận độc lập và đang chờ hướng dẫn của giảng viên cho tiêu chí này. Bảng nhóm có năm phương án khắc phục theo loại lỗi. Xem [bảng lỗi](bang_loi.md).
+- **CP3.** Quốc xác nhận 20 nhãn tham khảo. Đối chiếu theo mã với phiếu gốc của Dũng cho 20/20 ca trùng. Bảng lỗi có năm phương án khắc phục. [Gắn nhãn độc lập (lượt bổ sung)](bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung) đang chờ hướng dẫn của giảng viên.
 - D đề xuất ngẫu nhiên theo nhân viên với đối chứng chạy cùng thời gian. Xem [kế hoạch pilot](pilot_plan.yaml).
 - E tính chỉ số từ CSV và thiết kế sự kiện để đo trong pilot. Xem [chỉ số](chi_so.md) và [hồ sơ launch](ho_so_launch_v0.md).
 
@@ -23,9 +23,9 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 
 Chi phí mỗi việc thành công là 4.472 đ [simulated]. Giới hạn 2 lần chạy cho chi phí cả hệ thống khoảng 5.751 đ/yêu cầu [simulated], so với mốc 12.000 đ tự làm. Làm lại gấp đôi làm chi phí mỗi việc thành công tăng 51,8% [simulated].
 
-Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). Đề xuất hiện tại là No-go cho đến khi đủ bằng chứng.
+Đợt thử có 994/1.200 yêu cầu đạt chỉ số chính (82,83%), 48/177 yêu cầu được xem lại có sửa hoặc bỏ gợi ý (27,12%) và 51/1.200 yêu cầu mở lại trong 7 ngày (4,25%). B4 cho 12.415 đ/việc thành công [simulated] nếu làm lại mất 15,3 phút. Để quyết định giảm xem lại, cần đo chi phí cả hệ thống theo đ/yêu cầu và kiểm tra an toàn. Đề xuất hiện tại là No-go.
 
-Ghidorah và ToiYeuVinFast đã trao đổi năm câu hỏi về lịch pilot, điều kiện giảm xem lại, luật dừng khi hoàn trùng, tính độc lập của CP3 và cách xử lý kết quả chưa rõ. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast. Chưa ghi nhận điểm hội đồng chấm Ghidorah hoặc câu trả lời thực tế tại buổi duyệt. [Phiếu chấm](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo) lưu cả câu hỏi đã trao đổi và phản hồi bằng văn bản sau khi rà hồ sơ.
+Ghidorah và ToiYeuVinFast đã trao đổi năm câu hỏi về lịch pilot, điều kiện giảm xem lại, luật dừng khi hoàn trùng, tính độc lập của CP3 và cách xử lý kết quả chưa rõ. Quốc ghi đánh giá tổng quan 9/10 cho ToiYeuVinFast. Rà hồ sơ công khai của đội bạn cho mức đề xuất C6–C8 lần lượt 10, 10 và 5 điểm (25/30). Chưa ghi nhận điểm hội đồng chấm Ghidorah hoặc câu trả lời thực tế tại buổi duyệt. [Phiếu chấm](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo) lưu cả câu hỏi đã trao đổi và phản hồi bằng văn bản sau khi rà hồ sơ.
 
 ## 5. Khó khăn và cách xử lý
 
@@ -35,7 +35,7 @@ Hai bậc 10% và 25% thu yêu cầu trong 7 ngày rồi chờ đủ theo dõi a
 
 ## 6. Tổng hợp đóng góp
 
-Chi tiết đóng góp của từng thành viên nằm trong `TEAM.md`.
+Quốc điều phối, kiểm tra hồ sơ và xác nhận nhãn tham khảo. Phong triển khai A/B, Quang Anh kiểm số và đối chiếu D1/E1, Dũng gắn nhãn độc lập và giữ hồ sơ launch. Xem [phân công và bằng chứng của từng người](../../TEAM.md).
 
 ## 7. Hạn chế và hướng cải thiện
 

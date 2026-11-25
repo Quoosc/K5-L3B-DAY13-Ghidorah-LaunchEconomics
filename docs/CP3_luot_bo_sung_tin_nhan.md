@@ -1,10 +1,10 @@
-# CP3 · Lượt bổ sung — Tin nhắn xin bộ ca
+# CP3 – Gắn nhãn độc lập (lượt bổ sung)
 
-**Trạng thái: Đang chờ hướng dẫn của giảng viên.** Tính đến 25/11/2026, repo chưa có văn bản hướng dẫn mới và chưa có bộ ca mới nào được chấp thuận cho lượt bổ sung CP3. Vì vậy nhóm chưa lập hai phiếu trắng, chưa gắn nhãn và chưa đối chiếu. Hai phiếu cũ và kết quả 20/20 trong mục “Đối chiếu tham khảo” của [bảng lỗi](../report/team/bang_loi.md#phân-tích-tham-khảo) được giữ nguyên.
+**Trạng thái: Chờ hướng dẫn của giảng viên.** Đây là bản nháp tin nhắn. Xem [trạng thái gắn nhãn độc lập](../report/team/bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung) và [đối chiếu tham khảo 20/20](../report/team/bang_loi.md#đối-chiếu-tham-khảo-theo-mã-ca-0120).
 
 ## Tin nhắn gửi giảng viên
 
-> Thầy/Cô ơi, nhóm Ghidorah (L3B) đang làm lượt bổ sung CP3. Nhóm chưa thấy hướng dẫn hoặc bộ ca mới được chấp thuận trong tài liệu lớp. Thầy/Cô có thể gửi bộ ca mới, hoặc chốt phương án đánh giá thay thế (ví dụ dùng lại bộ 20 ca cũ hay một bộ khác) giúp nhóm không ạ? Nhóm sẽ giữ nguyên hai phiếu cũ và kết quả đối chiếu tham khảo 20/20, chỉ ghi kết quả lượt bổ sung khi có bộ ca được duyệt. Nếu có đáp án chính thức, Thầy/Cô gửi kèm để nhóm tính mức khớp. Em cảm ơn Thầy/Cô.
+> Thầy/cô ơi, nhóm Ghidorah (L3B) có phiếu độc lập của Dũng và phiếu Quốc xác nhận sau khi xem tham khảo. Hai phiếu trùng 20/20 theo mã ca. Thầy/cô có thể cho nhóm một bộ ca mà cả hai chưa xem đáp án, hoặc hướng dẫn cách đánh giá thay thế cho tiêu chí độc lập không ạ? Nếu được làm lại, hai bạn sẽ lưu riêng phiếu trước khi đối chiếu. Nhóm xin hướng dẫn về hạn nộp và cách đối chiếu đáp án chính thức sau khi nộp hai phiếu. Em cảm ơn thầy/cô.
 >
 > — Phạm Trấn Quốc (2A202604113), nhóm trưởng Ghidorah, lớp L3B
 
@@ -13,8 +13,8 @@
 | Hạng mục | Nội dung cần có |
 | --- | --- |
 | Bộ ca | Tệp hoặc danh sách mã ca kèm nguyên văn tình huống, đủ để lập hai phiếu giống nhau |
-| Phương án thay thế | Nếu không có bộ ca mới: có được dùng lại 20 ca cũ hay không, và có cần làm lại từ đầu không |
-| Đáp án | Đáp án nhãn chính thức hoặc xác nhận chưa có đáp án để nhóm không tự suy đoán |
+| Phương án thay thế | Hình thức đánh giá khác nếu không có bộ ca mới |
+| Đáp án | Cách nhận đáp án chính thức sau khi hai phiếu đã hoàn tất |
 | Hạn nộp | Mốc thời gian và nơi nhận kết quả lượt bổ sung |
 
 ## Việc nhóm chưa làm

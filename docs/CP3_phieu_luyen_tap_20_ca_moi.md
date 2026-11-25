@@ -1,4 +1,4 @@
-# CP3 · Phiếu luyện tập 20 ca mới
+# CP3 – Phiếu luyện tập 20 ca của Phạm Trấn Quốc
 
 Họ tên: Phạm Trấn Quốc · MSSV: 2A202604113
 

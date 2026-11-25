@@ -123,7 +123,7 @@ def _in_a2(ket_qua):
             print(f'{ten:42s} {gia_tri:>14,.0f}')
         else:
             print(f'{ten:42s} {gia_tri:>14,.1f}')
-    print(f'{"CPS / hoá đơn mỗi yêu cầu":42s} '
+    print(f'{"CPS / hoá đơn mỗi yêu cầu [simulated]":42s} '
           f'{ket_qua["cps"] / ket_qua["hoa_don_moi_yc"]:>14,.2f} lần')
 
 
@@ -131,14 +131,14 @@ def _in_a3(runs, reqs):
     """In bảng A3 theo loại yêu cầu và tỉ lệ run ok theo lần thử."""
     print('\nA3 · Tách theo loại yêu cầu')
     print(f'{"Loại":10s} {"Số YC":>7s} {"Thành công":>11s} '
-          f'{"Lần chạy/YC":>12s} {"CPS [sim]":>13s} {"So 12.000":>10s}')
+          f'{"Lần chạy/YC":>12s} {"CPS [simulated]":>16s} {"So 12.000 [simulated]":>21s}')
     for loai in ('noi_dia', 'hang_nang', 'quoc_te', 'doi_tac'):
         nhom = reqs[reqs['loai'] == loai]
         ket_qua = mo_hinh(runs, nhom)
         ti_le = ket_qua['thanh_cong'] / len(nhom)
         so_lan = nhom['so_lan_chay'].mean()
-        print(f'{loai:10s} {len(nhom):>7,d} {ti_le:>10.1%} {so_lan:>12.2f} '
-              f'{ket_qua["cps"]:>13,.0f} {ket_qua["cps"] / BASELINE:>9.2f}x')
+        print(f'{loai:10s} {len(nhom):>7,d} {ti_le:>11.1%} {so_lan:>12.2f} '
+              f'{ket_qua["cps"]:>16,.0f} {ket_qua["cps"] / BASELINE:>20.2f}x')
 
     print('\nTỉ lệ run ok theo lần thử (trả lời "chạy lại có giúp không")')
     runs_loai = runs.merge(reqs[['request_id', 'loai']], on='request_id', how='inner')
@@ -159,7 +159,7 @@ def _in_a4(runs, reqs):
     thanh_cong_thang = 45000 * ket_qua['thanh_cong'] / len(reqs)
     cps_truoc_co_dinh = ket_qua['cps']
 
-    print('\nA4 · Chi phí cố định (noi_dia + hang_nang)')
+    print('\nA4 · Chi phí cố định (noi_dia + hang_nang); CPS và điểm hòa vốn [simulated]')
     print(f'{"Khối lượng":24s} {"Việc TC/tháng":>15s} {"Cố định/việc":>14s} '
           f'{"CPS + cố định":>15s} {"So 12.000":>10s}')
     for ten, he_so in (('45.000 yêu cầu/tháng', 1.0), ('Một nửa khối lượng', 0.5)):
@@ -192,14 +192,14 @@ def _in_b1_b2(runs, reqs):
     ]
 
     print('\nB1 · Đổi từng yếu tố')
-    print(f'{"Kịch bản":30s} {"CPS [sim]":>13s} {"Thay đổi":>10s}')
-    print(f'{"Gốc (A2)":30s} {goc:>13,.0f} {"":>10s}')
+    print(f'{"Kịch bản":30s} {"CPS [simulated]":>16s} {"Thay đổi [simulated]":>20s}')
+    print(f'{"Gốc (A2)":30s} {goc:>16,.0f}')
     for ten, tham_so in kich_ban:
         cps = mo_hinh(runs, reqs, **tham_so)['cps']
-        print(f'{ten:30s} {cps:>13,.0f} {(cps / goc - 1) * 100:>+9.1f}%')
+        print(f'{ten:30s} {cps:>16,.0f} {(cps / goc - 1) * 100:>+19.1f}%')
 
     cap = mo_hinh(runs, reqs, gia_vao=52, gia_ra=260, he_so_xem_lai=2)['cps']
-    print(f'\nB2 · Giá token gấp đôi + xem lại gấp đôi: {cap:,.0f} đ '
+    print(f'\nB2 · Giá token gấp đôi + xem lại gấp đôi [simulated]: {cap:,.0f} đ '
           f'({(cap / goc - 1) * 100:+.1f}%)')
     print('Xếp hạng: 1. số ca làm lại; 2. tỉ lệ xem lại; 3. lương nhân viên')
 
@@ -207,14 +207,14 @@ def _in_b1_b2(runs, reqs):
 def _in_b3(runs, reqs):
     """In bảng B3: chi phí cả hệ thống khi giới hạn 1, 2, 3 lần chạy."""
     print('\nB3 · Giới hạn chạy lại có thật sự rẻ hơn')
-    print(f'{"Giới hạn":10s} {"Tổng trợ lý [sim]":>19s} {"Không TC":>9s} '
-          f'{"Cả hệ thống":>15s} {"CPS [sim]":>12s}')
+    print(f'{"Giới hạn":10s} {"Tổng trợ lý [simulated]":>24s} {"Không TC":>9s} '
+          f'{"Cả hệ thống [simulated]":>24s} {"CPS [simulated]":>16s}')
     for gioi_han in (1, 2, 3):
         ket_qua = mo_hinh(runs, reqs, max_lan_chay=gioi_han)
         khong_thanh_cong = len(reqs) - ket_qua['thanh_cong']
         ca_he_thong = ket_qua['tong'] + BASELINE * khong_thanh_cong
-        print(f'{gioi_han:>10d} {ket_qua["tong"]:>19,.0f} {khong_thanh_cong:>9,d} '
-              f'{ca_he_thong:>15,.0f} {ket_qua["cps"]:>12,.0f}')
+        print(f'{gioi_han:>10d} {ket_qua["tong"]:>24,.0f} {khong_thanh_cong:>9,d} '
+              f'{ca_he_thong:>24,.0f} {ket_qua["cps"]:>16,.0f}')
 
 
 def _in_b4(runs, reqs):
@@ -231,24 +231,24 @@ def _in_b4(runs, reqs):
         + runs_pham_vi['tool_calls'] * GIA_TOOL
     ).sum()
 
-    print('\nB4 · Nếu phải xem lại tất cả (noi_dia + hang_nang)')
+    print('\nB4 · Nếu phải xem lại tất cả (noi_dia + hang_nang); kịch bản chi phí [simulated]')
     print(f'{len(pham_vi)} yêu cầu; {so_yeu_cau_co_ok} yêu cầu có ít nhất 1 run ok; '
           f'{so_ca_lam_lai} ca làm lại; token + tool {tien_token_tool:,.0f} đ')
     phut_lam_lai_pham_vi = pham_vi.loc[
         pham_vi['ket_qua'] == 'lam_lai', 'phut_lam_lai_simulated'].mean()
-    print(f'  trung bình phút làm lại trong phạm vi: {phut_lam_lai_pham_vi:.1f} phút/ca')
+    print(f'  trung bình phút làm lại trong phạm vi: {phut_lam_lai_pham_vi:.2f} phút/ca')
     for phut_lam_lai in (9, 15.3, phut_lam_lai_pham_vi):
         tong = (so_yeu_cau_co_ok * 5 * LUONG_PHUT
                 + so_ca_lam_lai * phut_lam_lai * LUONG_PHUT
                 + tien_token_tool)
         cps = tong / thanh_cong
-        print(f'  làm lại {phut_lam_lai:>4.1f} phút/ca: tổng {tong:,.0f} đ; '
+        print(f'  làm lại {phut_lam_lai:>5.2f} phút/ca: tổng {tong:,.0f} đ; '
               f'CPS {cps:,.0f} đ = {cps / BASELINE:.2f}x')
     for phut_lam_lai in (9, 15.3, phut_lam_lai_pham_vi):
         hoa_von = (BASELINE * thanh_cong
                    - so_ca_lam_lai * phut_lam_lai * LUONG_PHUT
                    - tien_token_tool) / (so_yeu_cau_co_ok * LUONG_PHUT)
-        print(f'  hòa vốn khi làm lại {phut_lam_lai:>4.1f} phút/ca: '
+        print(f'  hòa vốn khi làm lại {phut_lam_lai:>5.2f} phút/ca: '
               f'mỗi lần xem lại <= {hoa_von:.1f} phút')
 
 

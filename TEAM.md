@@ -42,7 +42,7 @@ Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [p
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao tài liệu và chốt CP3 cùng Dũng. Bản bàn giao gồm [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), kết quả D1/E1 và dự thảo hồ sơ nhóm. Dũng đã nộp phiếu riêng. Kết quả đối chiếu tham khảo và tình trạng bằng chứng độc lập được ghi trong [bảng lỗi](report/team/bang_loi.md). Xem [báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) để biết phần hỗ trợ bằng AI và bằng chứng từng việc.
+**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao và rà hồ sơ. Quốc đã xác nhận [20 nhãn tham khảo](docs/CP3_phieu_PhamTranQuoc.md), trùng 20/20 khi đối chiếu với phiếu gốc của Dũng. [Gắn nhãn độc lập (lượt bổ sung)](report/team/bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung) chờ hướng dẫn của giảng viên. [Báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) dẫn bằng chứng từng việc và ghi phần hỗ trợ bằng AI.
 
 ### Trương Văn Phong — 2A202604091
 
@@ -66,4 +66,4 @@ Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [p
 
 **Đóng góp cần thực hiện:** Điền dần `report/team/ho_so_launch_v0.md`; gắn nhãn độc lập 20 ca ở CP3; phối hợp hoàn thiện bảng lỗi và hồ sơ cuối.
 
-**Tiến độ và bằng chứng:** Đã hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi tại [CP3_phieu_TranAnhDung.md](docs/CP3_phieu_TranAnhDung.md) (commit `97505fa`), cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md) và bảng rủi ro E2 trong [chỉ số](report/team/chi_so.md) (commit `0fc3bbe`), đối chiếu 20/20 ca trong [bảng lỗi](report/team/bang_loi.md), hoàn thiện [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md) và chạy kiểm tra cuối buổi (`lab13.py`, `pilot_plan.yaml`, nhãn `simulated`, quy tắc 5).
+**Tiến độ và bằng chứng:** Dũng nộp [phiếu gắn nhãn độc lập 20 ca](docs/CP3_phieu_TranAnhDung.md) tại `97505fa`, cập nhật hồ sơ launch và bảng rủi ro E2 tại `0fc3bbe`, rồi rà bản cuối tại `77943af`. [Bảng lỗi](report/team/bang_loi.md) ghi 20/20 ca trùng khi đối chiếu với phiếu Quốc xác nhận từ nhãn tham khảo. Xem [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md) để biết bằng chứng và bước tự kiểm.

@@ -1,4 +1,4 @@
-# Phiếu xác nhận nhãn CP3 · Phạm Trấn Quốc
+# CP3 – Phiếu xác nhận nhãn tham khảo của Phạm Trấn Quốc
 
 - MSSV: 2A202604113
 - Nhóm: Ghidorah, L3B

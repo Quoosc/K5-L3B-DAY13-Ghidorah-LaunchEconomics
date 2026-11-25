@@ -27,7 +27,7 @@
 - File đã thực hiện: `src/lab13.py`, `report/team/bang_chi_phi.md`.
 - Lệnh chạy: `cd src` rồi `.\.venv\Scripts\python.exe lab13.py`.
 - Kết quả A1: `Ba phép thử đáp án biết trước: ĐẠT`.
-- Kết quả A2: token 245.585 đ; tool 84.000 đ; xem lại 1.780.000 đ [simulated]; làm lại 2.264.000 đ [simulated]; tổng 4.373.585 đ; 978 việc thành công; 4.472 đ/việc [simulated]; hoá đơn token + tool 274,7 đ/yêu cầu; gấp 16,3 lần.
+- Kết quả A2: token 245.585 đ, tool 84.000 đ, xem lại 1.780.000 đ [simulated], làm lại 2.264.000 đ [simulated]. Tổng 4.373.585 đ cho 978 việc thành công, tức 4.472 đ/việc thành công [simulated]. Chỉ tính token và tool thì hóa đơn là 274,7 đ/yêu cầu, dùng làm mốc tham chiếu A2.
 - Kết quả A3: `quoc_te` có chi phí 22.515 đ/việc [simulated], bằng 1,88× so với 12.000 đ và chỉ 27,3% thành công; tỉ lệ run ok giảm 30,0% → 11,4% → 2,2% qua ba lần thử.
 - Kết quả A4: 45.000 yêu cầu/tháng cho 33.750 việc thành công; chi phí cố định 1.185 đ/việc; tổng 4.599 đ = 0,38× [simulated]; giảm nửa khối lượng là 5.784 đ = 0,48× [simulated].
 - Kết quả B1: làm lại gấp đôi làm chi phí tăng +51,8%; xem lại gấp đôi +40,7%; lương tăng 25% +23,1%; token gấp đôi chỉ +5,6%.
@@ -40,11 +40,11 @@
 
 - Dùng trợ lý AI trong OpenCode để gợi ý cấu trúc các hàm A1, `mo_hinh`, cách lọc `max_lan_chay`, cách tính chi phí cả hệ thống ở B3 và cách trình bày bảng B4.
 - Tự kiểm tra lại bằng cách chạy `python lab13.py`, đọc kết quả từng bảng, đối chiếu với số tham chiếu trong `docs/`, kiểm tra tổng các khoản bằng tổng chi phí và tính tay 890 × 2.000 = 1.780.000 đ.
-- Không dùng AI để tạo nhãn lỗi hay kết quả duyệt chéo; phần C và phiếu chấm do các thành viên khác thực hiện theo đúng quy định.
+- Phần em thực hiện là A/B. Nguồn nhãn và trạng thái duyệt chéo được ghi trong [bảng lỗi](bang_loi.md) và [phiếu chấm](phieu_cham.md).
 
 ## 6. Tự đánh giá
 
 - Hoàn thành đúng phần được phân công: A1–A4 và B1–B4 trong code, cùng bảng A/B trong hồ sơ.
 - Code chạy được từ đầu đến cuối, ba phép thử A1 đạt, các số chính khớp tham chiếu.
-- Phần D1 được để lại đúng chỗ `TODO CP4` để bàn giao cho Quang Anh; phần C, D, E còn lại do nhóm phối hợp hoàn thiện.
+- Sau khi bàn giao A/B, Quang Anh đối chiếu kết quả D1/E1. Xem [báo cáo kiểm số](2A202604120_NguyenQuocQuangAnh.md) để biết lần chạy và kết quả của bản tích hợp.
 - Cần cải thiện thêm cách trình bày bảng trên console và bổ sung kiểm tra tự động cho các tổng chi phí nếu có thời gian.

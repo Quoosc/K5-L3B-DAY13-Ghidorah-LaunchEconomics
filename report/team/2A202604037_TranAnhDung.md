@@ -19,13 +19,12 @@
 - **CP3 (Gắn nhãn độc lập):** Hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi theo 5 loại Google PAIR tại [CP3_phieu_TranAnhDung.md](../../docs/CP3_phieu_TranAnhDung.md) (4 ca Do người dùng, 5 ca Hệ thống, 4 ca Ngữ cảnh, 4 ca Giới hạn hệ thống, 3 ca Ngầm).
 - **Hồ sơ launch v0 (E3):** Cập nhật thông tin nhóm/lớp và điền số liệu các mục 1, 2, 3, 7 từ [bang_chi_phi.md](bang_chi_phi.md) vào [ho_so_launch_v0.md](ho_so_launch_v0.md), gắn nhãn `simulated`, chuẩn hoá vai trò phụ trách theo quyền quyết định tại LogiX-VN.
 - **Rủi ro kinh tế (E2):** Cập nhật số liệu tác động từ B1 (+51,8%, lên 6.787 đ `simulated`) và B4 (11.743 đ = 0,98× / 12.415 đ = 1,03× `simulated`) vào bảng E2 trong [chi_so.md](chi_so.md).
-- **Đối chiếu CP3 & Duyệt chéo Gate 2a:** Đối chiếu đủ 20 mã ca trong phiếu gốc với phiếu xác nhận của Quốc trong [bang_loi.md](bang_loi.md) (khớp 20/20 ca, đồng thời ghi rõ tình trạng bằng chứng đồng thuận độc lập); tham gia rà soát phản hồi 5 câu hỏi duyệt chéo với nhóm `ToiYeuVinFast` trong [phieu_cham.md](phieu_cham.md) và chạy kiểm tra checklist nộp bài (chạy lại `src/lab13.py`, kiểm tra `pilot_plan.yaml` bằng `yaml.safe_load`, kiểm tra nhãn `simulated` và quy tắc 5).
+- **Đối chiếu CP3 và duyệt chéo Gate 2a:** Đối chiếu theo mã cho thấy phiếu gốc của Dũng trùng 20/20 với phiếu Quốc xác nhận từ nhãn tham khảo. [Bảng lỗi](bang_loi.md) ghi riêng tình trạng bằng chứng đồng thuận độc lập. Rà phản hồi cho năm câu hỏi trao đổi với ToiYeuVinFast trong [phiếu chấm](phieu_cham.md) và kiểm tra bản chạy, YAML, nhãn `simulated` và quy tắc 5 trước khi nộp.
 
 ## 4. Bằng chứng
 
 - Commit `97505fa`: `docs(cp3): add independent labeling sheet for Tran Anh Dung` — [CP3_phieu_TranAnhDung.md](../../docs/CP3_phieu_TranAnhDung.md).
-- Commit `0fc3bbe`: `docs: update launch dossier, E2 risks, TEAM info, and Tran Anh Dung report` — cập nhật [ho_so_launch_v0.md](ho_so_launch_v0.md), bảng rủi ro E2 trong [chi_so.md](chi_so.md), [TEAM.md](../../TEAM.md) và báo cáo cá nhân.
-- Cột nhãn gốc của Dũng (20/20 ca khớp) trong [bang_loi.md](bang_loi.md).
+- Commit `0fc3bbe` cập nhật [hồ sơ launch](ho_so_launch_v0.md) và [bảng rủi ro E2](chi_so.md). Commit `9c02779` ghi kết quả đối chiếu tham khảo tại [bảng lỗi](bang_loi.md). Commit `77943af` ghi lần rà cuối của Dũng.
 
 ## 5. Công cụ AI đã dùng
 
