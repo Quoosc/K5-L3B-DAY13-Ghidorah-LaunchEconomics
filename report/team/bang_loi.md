@@ -96,3 +96,23 @@ Chỉ mở sau khi cả hai đã ghi xong bộ nhãn độc lập. Phần này d
 | 20 | Hệ thống | Thiếu cơ chế chống trùng nên cùng một khoản được hoàn hai lần. |
 
 </details>
+
+## CP3 – Lượt bổ sung
+
+**Trạng thái: Đang chờ hướng dẫn của giảng viên.** Tính đến 25/11/2026, repo chưa có văn bản hướng dẫn mới và chưa có bộ ca mới nào được chấp thuận cho lượt bổ sung. Vì vậy chưa thể lập hai phiếu trắng, chưa có nhãn để đối chiếu và chưa tính được tỉ lệ đồng thuận. Hai phiếu cũ và kết quả 20/20 trong mục “Đối chiếu tham khảo” ở trên được giữ nguyên.
+
+| Hạng mục | Trạng thái | Ghi chú |
+| --- | --- | --- |
+| Hướng dẫn của giảng viên | Chưa có | Không thấy văn bản hướng dẫn mới trong repo |
+| Bộ ca mới được chấp thuận | Chưa có | Chưa thấy văn bản chấp thuận bộ ca mới; bộ 20 ca hiện có là đề gốc Lab 13, chưa được xác nhận dùng cho lượt bổ sung |
+| Phiếu trắng của Quốc | Chưa tạo | Chờ mã ca và nguyên văn tình huống được duyệt |
+| Phiếu trắng của Dũng | Chưa tạo | Chờ mã ca và nguyên văn tình huống được duyệt |
+| Bảng đối chiếu | Chưa có | Chỉ mở khi cả hai đã gửi bản hoàn tất |
+| Số ca hợp lệ | Chưa xác định | Chưa có bộ ca được duyệt |
+| Số ca trùng / tỉ lệ đồng thuận | Chưa tính | Sẽ giữ nguyên tỉ lệ tính trước thảo luận nếu sau này có đối chiếu |
+| Ca còn chờ hai người chốt | Chưa có danh sách | Phát sinh sau khi ghép hai phiếu |
+| Mức khớp đáp án giảng viên | Chưa tính | Chỉ tính khi có đáp án chính thức; kết quả 20/20 ở mục tham khảo không phải đáp án chính thức |
+
+**Tin nhắn xin bộ ca hoặc phương án đánh giá thay thế:** [docs/CP3_luot_bo_sung_tin_nhan.md](../../docs/CP3_luot_bo_sung_tin_nhan.md).
+
+**Điều kiện mở lại lượt bổ sung:** giảng viên gửi bộ ca mới hoặc chấp thuận phương án thay thế. Sau đó nhóm tạo hai phiếu trắng giống nhau, mỗi phiếu có mã ca, nguyên văn tình huống và ô “Nhãn của tôi”; chỉ liệt kê năm nhãn hợp lệ, không điền sẵn nhãn, không gợi ý riêng và không để người này xem lựa chọn của người kia. Chỉ bắt đầu đối chiếu khi cả hai đã gửi bản hoàn tất; giữ nguyên từng bản gốc và tỉ lệ đồng thuận tính trước thảo luận.
