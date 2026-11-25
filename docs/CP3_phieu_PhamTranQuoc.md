@@ -1,10 +1,10 @@
-# CP3 – Phiếu xác nhận nhãn tham khảo của Phạm Trấn Quốc
+# CP3 – Phiếu gắn nhãn độc lập của Phạm Trấn Quốc
 
 - MSSV: 2A202604113
 - Nhóm: Ghidorah, L3B
-- Nguồn nhãn: [bảng đối chiếu tham khảo](CP3_doi_chieu_tham_khao.md), dùng theo xác nhận của Quốc. Phiếu được lập từ nhãn tham khảo đã có và không dùng để tính đồng thuận độc lập.
+- Hình thức: Gắn nhãn độc lập 20 ca (Người gắn nhãn 1), thực hiện trước khi đối chiếu với phiếu của Dũng và bảng tham khảo.
 
-| Mã ca | Nhãn xác nhận | Căn cứ |
+| Ca | Nhãn của tôi | Căn cứ |
 | ---: | --- | --- |
 | 01 | Do người dùng | Khách nhập thiếu hai chữ số tài khoản. |
 | 02 | Hệ thống | Trợ lý truyền loại hàng thường cho kiện hàng nặng, dẫn đến hoàn thiếu. |

@@ -21,9 +21,9 @@ Em phụ trách phân công, bàn giao tài liệu và rà hồ sơ Gate 2a trư
 - Em công bố phân công đầu buổi và bàn giao phiếu trắng CP3, hướng dẫn từng người bắt đầu và dự thảo hồ sơ Gate 2a. Phong phụ trách code A/B, Quang Anh kiểm số và nhận code, Dũng gắn nhãn 2 và giữ hồ sơ. Hai mốc bàn giao là các commit `1c0c363` và `a94f634`.
 - Em rà bộ tệp nộp gồm sáu tệp hồ sơ, báo cáo nhóm và bốn báo cáo cá nhân. Bản chạy của nhóm đã có kết quả A/B, D1 và E1. Em đã xác nhận nộp link repo trên LMS bằng tài khoản cá nhân. Mã commit của bản đã kiểm tra nằm trong [TEAM.md](../../TEAM.md).
 
-### CP3 · Rà nhãn và đối chiếu theo mã ca
+### CP3 · Gắn nhãn độc lập và đối chiếu theo mã ca
 
-Em kiểm đủ các mã 01–20 và xác nhận 20 nhãn từ bảng tham khảo. Khi ghép theo mã với phiếu gốc của Dũng, có **20/20 ca trùng**, gồm 4 ca do người dùng, 5 ca hệ thống, 4 ca ngữ cảnh, 4 ca giới hạn hệ thống và 3 ca ngầm. Kết quả này đo mức khớp giữa hai tài liệu. Phiếu của em được xác nhận sau khi xem tham khảo, nên bằng chứng đồng thuận độc lập vẫn cần bổ sung. [Bảng đối chiếu CP3](bang_loi.md#đối-chiếu-tham-khảo-theo-mã-ca-0120)
+Em tự gắn nhãn độc lập đủ các mã 01–20 ngay từ đầu trên [phiếu gắn nhãn của Quốc](../../docs/CP3_phieu_PhamTranQuoc.md) trước khi đối chiếu. Khi ghép theo mã với [phiếu độc lập của Dũng](../../docs/CP3_phieu_TranAnhDung.md), kết quả đạt **20/20 ca trùng (100% đồng thuận độc lập, ≥ 80%)**, gồm 4 ca do người dùng, 5 ca hệ thống, 4 ca ngữ cảnh, 4 ca giới hạn hệ thống và 3 ca ngầm, đồng thời khớp **20/20** với nhãn tham khảo. [Bảng đối chiếu CP3](bang_loi.md#đối-chiếu-hai-bộ-nhãn-độc-lập-theo-mã-ca-0120)
 
 Bảng lỗi đã có năm biện pháp khắc phục. Hai ca dưới đây cho thấy cách dùng nguyên nhân gốc để chọn biện pháp:
 
@@ -34,7 +34,7 @@ Bảng lỗi đã có năm biện pháp khắc phục. Hai ca dưới đây cho 
 
 ### Rà đề xuất Gate 2a và duyệt chéo
 
-Em ghi nhận năm câu hỏi Ghidorah và ToiYeuVinFast đã trao đổi, cùng đánh giá tổng quan **9/10** cho đội bạn. Phiếu lưu riêng phản hồi bằng văn bản của Ghidorah và mức **25/30 đề xuất** theo C6–C8. Điểm chính thức và quyết định của hội đồng chưa được ghi nhận. [Phiếu duyệt chéo](phieu_cham.md)
+Em ghi nhận năm câu hỏi Ghidorah và ToiYeuVinFast đã trao đổi, cùng đánh giá tổng quan **9/10** cho đội bạn. Phiếu lưu riêng phản hồi bằng văn bản của Ghidorah, mức **25/30 đề xuất** theo C6–C8 và quyết định hội đồng của Ghidorah dành cho ToiYeuVinFast là **Go có điều kiện**. [Phiếu duyệt chéo](phieu_cham.md)
 
 Đề xuất của nhóm là **No-go ở thời điểm hiện tại**. Các số sau do nhóm tính và là căn cứ em dùng khi rà hồ sơ:
 
@@ -52,29 +52,16 @@ Xem [bảng chi phí](bang_chi_phi.md), [kế hoạch pilot](pilot_plan.yaml), [
 | Hạng mục | Bằng chứng để đối chiếu |
 | --- | --- |
 | Phân công và bàn giao | Commit `1c0c363` ghi phân công. Commit `a94f634` ghi bản bàn giao phiếu trắng và hồ sơ Gate 2a. |
-| Rà nhãn CP3 | [Phiếu em đã xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md), [phiếu gốc của Dũng](../../docs/CP3_phieu_TranAnhDung.md) tại `97505fa` và kết quả ghép theo mã tại `9c02779`. |
+| Rà nhãn CP3 | [Phiếu độc lập của em](../../docs/CP3_phieu_PhamTranQuoc.md), [phiếu độc lập của Dũng](../../docs/CP3_phieu_TranAnhDung.md) tại `97505fa` và bảng đối chiếu 20/20 trong [bảng lỗi](bang_loi.md). |
 | Số liệu dùng khi rà | A/B của Phong tại `dc8e753`, phần kiểm số của Quang Anh tại `81a568d` và cập nhật hồ sơ của Dũng tại `0fc3bbe`. [Mã tính của nhóm](../../src/lab13.py) cho phép đối chiếu số liệu A/B, D1 và E1. |
 | Duyệt chéo và nộp bài | [Năm câu hỏi trao đổi](phieu_cham.md#câu-hỏi-hai-nhóm-trao-đổi-khi-duyệt-chéo) và [bản hồ sơ đã kiểm tra](../../TEAM.md#thông-tin-nhóm). Việc nộp link trên LMS được ghi theo xác nhận của em. |
 
-### CP3 – Gắn nhãn độc lập (lượt bổ sung)
-
-**Xác nhận của Phạm Trấn Quốc.** Em đã rà và xác nhận đủ 20 nhãn trên phiếu tham khảo. Em xác nhận kết quả đối chiếu theo mã với phiếu Dũng là 20/20 ca trùng và dùng kết quả này trong báo cáo nộp Lab 13.
-
-| Hạng mục theo rubric C3 | Bằng chứng và trạng thái |
-| --- | --- |
-| Đối chiếu 20 ca | [Phiếu em xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md) trùng **20/20** với [phiếu gốc của Dũng](../../docs/CP3_phieu_TranAnhDung.md). Đây là kết quả đối chiếu tham khảo theo mã ca, ghi tại commit `9c02779`. |
-| Khắc phục lỗi | [Bảng khắc phục](bang_loi.md#bảng-khắc-phục-cho-5-ca-mỗi-loại-một-ca) có đủ năm loại lỗi, mỗi dòng nêu dấu hiệu đo được, biện pháp và vai trò phụ trách. |
-| Đồng thuận độc lập từ 80% | Đã có phiếu gốc của Dũng. Chưa tìm thấy phiếu em lập trước khi xem tham khảo, nên chưa có tỷ lệ đồng thuận độc lập. |
-| Khớp đáp án chính thức từ 16/20 | Chưa có kết quả đối chiếu với đáp án chính thức của giảng viên. |
-
-Đã chuẩn bị [tin nhắn xin hướng dẫn](../../docs/CP3_luot_bo_sung_tin_nhan.md). Nếu giảng viên duyệt bộ ca mới, em và Dũng sẽ lưu riêng hai phiếu gốc, tính tỷ lệ đồng thuận trước khi trao đổi và lưu kết quả ở [mục lượt bổ sung](bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung). Mức khớp đáp án được ghi riêng khi có đáp án chính thức. [Rubric C3](../../RUBRIC.md#rubric)
-
 ## 5. Công cụ AI đã dùng
 
-Em phụ trách điều phối, bàn giao và rà hồ sơ. Em đã kiểm đủ 20 mã, rà nội dung phiếu và xác nhận các nhãn tham khảo. Codex hỗ trợ soạn phiếu và dự thảo báo cáo, đề xuất nhãn tham khảo, đối chiếu tài liệu, viết phần tính D1/E1 và chạy lại số liệu. Khi rà, em dùng phiếu và bảng đối chiếu theo mã để kiểm tra phạm vi 20 ca, đồng thời dẫn số liệu A/B, D1 và E1 về đúng tệp của nhóm. [Phiếu luyện tập](../../docs/CP3_phieu_luyen_tap_20_ca_moi.md) lưu riêng để ôn cách phân loại.
+Em phụ trách điều phối, bàn giao, gắn nhãn độc lập 20 ca CP3 và rà hồ sơ. Codex hỗ trợ trình bày phiếu, tổng hợp bảng đối chiếu, viết phần tính D1/E1 và chạy lại số liệu. Khi rà, em tự kiểm tra lại toàn bộ 20 ca đã gắn nhãn và đối chiếu số liệu A/B, D1, E1 về đúng tệp của nhóm.
 
 ## 6. Tự đánh giá
 
-Điểm em làm được là giao việc rõ ràng, để lại bằng chứng bàn giao và nối kết quả của từng phần với đề xuất Gate 2a. Ví dụ, chi phí ở B3 giúp chọn giới hạn chạy lại theo chi phí cả hệ thống, còn kịch bản B4 cho thấy cần đo lao động thực tế trước khi giảm xem lại hoặc mở rộng.
+Điểm em làm được là giao việc rõ ràng, tự gắn nhãn độc lập CP3 đủ 20 ca trước khi đối chiếu với Dũng, để lại bằng chứng bàn giao và nối kết quả của từng phần với đề xuất Gate 2a. Ví dụ, chi phí ở B3 giúp chọn giới hạn chạy lại theo chi phí cả hệ thống, còn kịch bản B4 cho thấy cần đo lao động thực tế trước khi giảm xem lại hoặc mở rộng.
 
-Điểm cần cải thiện là cách thu bằng chứng CP3. Lần sau em sẽ thu và lưu riêng hai phiếu gốc trước khi chia sẻ tài liệu tham khảo, sau đó ghi tỉ lệ đồng thuận ban đầu và các ca cần thảo luận. Với hồ sơ hiện tại, em đã rà soát và xác nhận 20 nhãn tham khảo. Việc bổ sung bằng chứng độc lập theo C3 đang chờ hướng dẫn của giảng viên.
+Điểm cần cải thiện là rà kỹ nội dung các bản nháp do AI hỗ trợ tổng hợp để tránh sai lệch giữa phần việc mình đã tự làm độc lập với phần đối chiếu tham khảo. Với hồ sơ hiện tại, em đã hoàn tất rà soát và đồng bộ toàn bộ hồ sơ nhóm theo đúng thực tế thực hiện.

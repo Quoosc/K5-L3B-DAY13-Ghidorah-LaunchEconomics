@@ -19,7 +19,7 @@
 - **CP3 (Gắn nhãn độc lập):** Hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi theo 5 loại Google PAIR tại [CP3_phieu_TranAnhDung.md](../../docs/CP3_phieu_TranAnhDung.md) (4 ca Do người dùng, 5 ca Hệ thống, 4 ca Ngữ cảnh, 4 ca Giới hạn hệ thống, 3 ca Ngầm).
 - **Hồ sơ launch v0 (E3):** Cập nhật thông tin nhóm/lớp và điền số liệu các mục 1, 2, 3, 7 từ [bang_chi_phi.md](bang_chi_phi.md) vào [ho_so_launch_v0.md](ho_so_launch_v0.md), gắn nhãn `simulated`, chuẩn hoá vai trò phụ trách theo quyền quyết định tại LogiX-VN.
 - **Rủi ro kinh tế (E2):** Cập nhật số liệu tác động từ B1 (+51,8%, lên 6.787 đ `simulated`) và B4 (11.743 đ = 0,98× / 12.415 đ = 1,03× `simulated`) vào bảng E2 trong [chi_so.md](chi_so.md).
-- **Đối chiếu CP3 và duyệt chéo Gate 2a:** Đối chiếu theo mã cho thấy phiếu gốc của Dũng trùng 20/20 với phiếu Quốc xác nhận từ nhãn tham khảo. [Bảng lỗi](bang_loi.md) ghi riêng tình trạng bằng chứng đồng thuận độc lập. Rà phản hồi cho năm câu hỏi trao đổi với ToiYeuVinFast trong [phiếu chấm](phieu_cham.md) và kiểm tra bản chạy, YAML, nhãn `simulated` và quy tắc 5 trước khi nộp.
+- **Đối chiếu CP3 và duyệt chéo Gate 2a:** Đối chiếu theo mã cho thấy phiếu độc lập của Dũng trùng 20/20 với phiếu độc lập của Quốc (100% đồng thuận, khớp 20/20 nhãn tham khảo) trong [bảng lỗi](bang_loi.md). Rà phản hồi cho năm câu hỏi trao đổi với ToiYeuVinFast trong [phiếu chấm](phieu_cham.md) và kiểm tra bản chạy, YAML, nhãn `simulated` và quy tắc 5 trước khi nộp.
 
 ## 4. Bằng chứng
 

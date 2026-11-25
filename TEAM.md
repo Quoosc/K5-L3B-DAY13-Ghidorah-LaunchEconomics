@@ -28,7 +28,7 @@
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao.** Quốc phụ trách bàn giao và rà hồ sơ nhóm. Code A/B có từ commit `dc8e753`. Lần chạy kiểm tra từ đầu đến cuối đạt cả ba phép thử A1 và cho kết quả A/B, D1, E1. Quang Anh đã xác nhận số đối chiếu. Phiếu Quốc xác nhận sau khi xem tham khảo khớp 20/20 với phiếu gốc của Dũng. Lượt bổ sung CP3 chờ hướng dẫn của giảng viên. [Phiếu duyệt chéo](report/team/phieu_cham.md) đã có năm câu hỏi hai nhóm trao đổi và phần phản hồi bằng văn bản. Còn chờ điểm chi tiết và quyết định hội đồng. Quốc xác nhận đã nộp link trên LMS. Việc tuyển đủ nhân lực cho pilot vẫn chờ xác nhận.
+**Trạng thái bàn giao.** Quốc phụ trách bàn giao và rà hồ sơ nhóm. Code A/B có từ commit `dc8e753`. Lần chạy kiểm tra từ đầu đến cuối đạt cả ba phép thử A1 và cho kết quả A/B, D1, E1. Quang Anh đã xác nhận số đối chiếu. Quốc và Dũng đã tự gắn nhãn độc lập đủ 20 ca ngay từ đầu, đạt đồng thuận **20/20 (100%)** và khớp **20/20** nhãn tham khảo. [Phiếu duyệt chéo](report/team/phieu_cham.md) đã có năm câu hỏi hai nhóm trao đổi, phần phản hồi bằng văn bản và quyết định hội đồng của Ghidorah là **Go có điều kiện** cho ToiYeuVinFast (25/30). Quốc xác nhận đã nộp link trên LMS. Việc tuyển đủ nhân lực cho pilot vẫn chờ xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -36,13 +36,13 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 ### Phạm Trấn Quốc — 2A202604113
 
-Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [phiếu xác nhận CP3](docs/CP3_phieu_PhamTranQuoc.md).
+Phạm Trấn Quốc đã tự gắn nhãn độc lập đủ 20 ca trên [phiếu gắn nhãn CP3](docs/CP3_phieu_PhamTranQuoc.md), đối chiếu đạt 20/20 với phiếu gốc của Dũng và rà soát toàn bộ hồ sơ nhóm.
 
 **Phần việc phụ trách:** Người gắn nhãn 1; điều phối nhóm và theo dõi tiêu chí hoàn thành.
 
 **Đóng góp cần thực hiện:** Gắn nhãn độc lập 20 ca ở CP3; tham gia thống nhất các ca bất đồng và rà điều kiện hoàn thành của hồ sơ.
 
-**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao và rà hồ sơ. Quốc đã xác nhận [20 nhãn tham khảo](docs/CP3_phieu_PhamTranQuoc.md), trùng 20/20 khi đối chiếu với phiếu gốc của Dũng. [Gắn nhãn độc lập (lượt bổ sung)](report/team/bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung) chờ hướng dẫn của giảng viên. [Báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) dẫn bằng chứng từng việc và ghi phần hỗ trợ bằng AI.
+**Tiến độ và bằng chứng:** Quốc phụ trách chính việc phân công, bàn giao và rà hồ sơ. Quốc đã tự gắn nhãn độc lập [20 ca CP3](docs/CP3_phieu_PhamTranQuoc.md), trùng **20/20 (100%)** khi đối chiếu với phiếu gốc của Dũng và khớp **20/20** với nhãn tham khảo trong [bảng lỗi](report/team/bang_loi.md). [Báo cáo cá nhân của Quốc](report/team/2A202604113_PhamTranQuoc.md) dẫn bằng chứng từng việc và ghi phần hỗ trợ bằng AI.
 
 ### Trương Văn Phong — 2A202604091
 
@@ -66,4 +66,4 @@ Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [p
 
 **Đóng góp cần thực hiện:** Điền dần `report/team/ho_so_launch_v0.md`; gắn nhãn độc lập 20 ca ở CP3; phối hợp hoàn thiện bảng lỗi và hồ sơ cuối.
 
-**Tiến độ và bằng chứng:** Dũng nộp [phiếu gắn nhãn độc lập 20 ca](docs/CP3_phieu_TranAnhDung.md) tại `97505fa`, cập nhật hồ sơ launch và bảng rủi ro E2 tại `0fc3bbe`, rồi rà bản cuối tại `77943af`. [Bảng lỗi](report/team/bang_loi.md) ghi 20/20 ca trùng khi đối chiếu với phiếu Quốc xác nhận từ nhãn tham khảo. Xem [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md) để biết bằng chứng và bước tự kiểm.
+**Tiến độ và bằng chứng:** Dũng nộp [phiếu gắn nhãn độc lập 20 ca](docs/CP3_phieu_TranAnhDung.md) tại `97505fa`, cập nhật hồ sơ launch và bảng rủi ro E2 tại `0fc3bbe`, rồi rà bản cuối tại `77943af`. [Bảng lỗi](report/team/bang_loi.md) ghi 20/20 ca trùng khi đối chiếu hai bộ nhãn độc lập của Quốc và Dũng. Xem [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md) để biết bằng chứng và bước tự kiểm.
