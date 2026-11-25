@@ -15,7 +15,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 ## 3. Giải pháp
 
 - A/B dùng trace và dữ liệu yêu cầu để tính chi phí, so với nhân viên tự làm và phân tích độ nhạy. Kết quả đã được đối chiếu với code chạy trên hai CSV. Chi tiết ở [bảng chi phí](bang_chi_phi.md).
-- C phân loại theo nguyên nhân gốc. Đã có phần tham khảo 20 ca và năm đề xuất khắc phục. Đã nhập đủ 20 nhãn của Dũng từ phiếu gốc ở commit `97505fa` vào cột Dũng. Sau khi Quốc hoàn tất phiếu riêng, hai người ghi kết quả đối chiếu trong [bảng lỗi](bang_loi.md).
+- C phân loại theo nguyên nhân gốc. Đã có phần tham khảo 20 ca và năm đề xuất khắc phục. Bảng CP3 ghi từng nhãn của Dũng (phiếu gốc ở commit `97505fa`) cạnh nhãn Codex lập theo ủy quyền. Hai nguồn khớp 20/20 mã ca. Sau khi Quốc hoàn tất phiếu riêng, hai người ghi kết quả đối chiếu trong [bảng lỗi](bang_loi.md).
 - D đề xuất ngẫu nhiên theo nhân viên với đối chứng chạy cùng thời gian. Xem [kế hoạch pilot](pilot_plan.yaml).
 - E tính chỉ số từ CSV và thiết kế sự kiện để đo trong pilot. Xem [chỉ số](chi_so.md) và [hồ sơ launch](ho_so_launch_v0.md).
 

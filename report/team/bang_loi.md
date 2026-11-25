@@ -10,28 +10,28 @@ Mỗi người lập bộ 20 nhãn riêng trong 8 phút, giữ riêng cho đến
 
 **Nhận phiếu:** Cột Dũng được chép theo mã ca từ [phiếu gốc](../../docs/CP3_phieu_TranAnhDung.md) tại commit `97505fa`. Dấu — biểu thị ô đang chờ dữ liệu. Chờ phiếu độc lập của Quốc. Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) khi làm riêng. Trước khi nhập, kiểm đủ mã 01–20 đúng một lần cho mỗi người và kiểm nhãn thuộc năm loại trên.
 
-| Ca | Quốc | Dũng | Trùng? | Nhãn thống nhất |
-| --: | --- | --- | --- | --- |
-| 1 | — | Do người dùng | — | — |
-| 2 | — | Hệ thống | — | — |
-| 3 | — | Ngữ cảnh | — | — |
-| 4 | — | Giới hạn hệ thống | — | — |
-| 5 | — | Ngầm | — | — |
-| 6 | — | Do người dùng | — | — |
-| 7 | — | Hệ thống | — | — |
-| 8 | — | Hệ thống | — | — |
-| 9 | — | Do người dùng | — | — |
-| 10 | — | Ngữ cảnh | — | — |
-| 11 | — | Giới hạn hệ thống | — | — |
-| 12 | — | Ngầm | — | — |
-| 13 | — | Giới hạn hệ thống | — | — |
-| 14 | — | Do người dùng | — | — |
-| 15 | — | Hệ thống | — | — |
-| 16 | — | Ngữ cảnh | — | — |
-| 17 | — | Ngầm | — | — |
-| 18 | — | Ngữ cảnh | — | — |
-| 19 | — | Giới hạn hệ thống | — | — |
-| 20 | — | Hệ thống | — | — |
+| Ca | Quốc (phiếu cá nhân) | Dũng | Codex (theo ủy quyền) | Dũng–Codex | Nhãn thống nhất Quốc–Dũng |
+| --: | --- | --- | --- | --- | --- |
+| 1 | — | Do người dùng | Do người dùng | Trùng | — |
+| 2 | — | Hệ thống | Hệ thống | Trùng | — |
+| 3 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
+| 4 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
+| 5 | — | Ngầm | Ngầm | Trùng | — |
+| 6 | — | Do người dùng | Do người dùng | Trùng | — |
+| 7 | — | Hệ thống | Hệ thống | Trùng | — |
+| 8 | — | Hệ thống | Hệ thống | Trùng | — |
+| 9 | — | Do người dùng | Do người dùng | Trùng | — |
+| 10 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
+| 11 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
+| 12 | — | Ngầm | Ngầm | Trùng | — |
+| 13 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
+| 14 | — | Do người dùng | Do người dùng | Trùng | — |
+| 15 | — | Hệ thống | Hệ thống | Trùng | — |
+| 16 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
+| 17 | — | Ngầm | Ngầm | Trùng | — |
+| 18 | — | Ngữ cảnh | Ngữ cảnh | Trùng | — |
+| 19 | — | Giới hạn hệ thống | Giới hạn hệ thống | Trùng | — |
+| 20 | — | Hệ thống | Hệ thống | Trùng | — |
 
 **Đồng thuận Quốc–Dũng** chưa tính được vì mới có một phiếu gốc.
 
