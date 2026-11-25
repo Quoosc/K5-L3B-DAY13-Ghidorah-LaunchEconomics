@@ -21,7 +21,8 @@ Theo dõi tiêu chí hoàn thành của các checkpoint. Ở CP3, tự gắn nh�
 | Công bố phân công và bàn giao tài liệu cho nhóm | Phạm Trấn Quốc | Commit `1c0c363` cập nhật TEAM.md. Commit `a94f634` bàn giao phiếu trắng, phân công và bản nháp Gate 2a qua tài khoản Quoosc. |
 | Bàn giao phiếu CP3 và tài liệu đối chiếu | Phạm Trấn Quốc | [Phiếu trắng](../../docs/CP3_phieu_gan_nhan_trang.md), [phần tham khảo CP3](bang_loi.md#phân-tích-tham-khảo). Phạm vi hỗ trợ được ghi ở mục 5. |
 | Điều phối rà cỡ mẫu, chỉ số và hồ sơ nhóm | Phạm Trấn Quốc | [Mã tính](../../src/lab13.py), [D1/D2](pilot_plan.yaml), [E1](chi_so.md). Phạm vi hỗ trợ được ghi ở mục 5. |
-| Gắn nhãn độc lập, đối chiếu và tự kiểm báo cáo | Phạm Trấn Quốc | Quốc đã kiểm tra hồ sơ và xác nhận bộ nhãn tham khảo. Phiếu độc lập vẫn chưa được ghi nhận. |
+| Rà hồ sơ và xác nhận 20 nhãn CP3 | Phạm Trấn Quốc | Đã kiểm tra hồ sơ và xác nhận đủ 20 mã trên [phiếu xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md). Commit đối chiếu: `9c02779`. |
+| Gắn nhãn độc lập cho CP3 | Phạm Trấn Quốc | Chưa tìm thấy phiếu lập trước khi xem tham khảo. Chờ hướng dẫn của giảng viên. |
 
 ## 4. Bằng chứng
 
@@ -55,17 +56,6 @@ Quốc phụ trách điều phối và bàn giao. Codex hỗ trợ soạn phiế
 | Khi cả hai gắn xong | Cùng Anh Dũng chép nguyên hai bộ vào [bảng lỗi](bang_loi.md), đếm ca trùng và tính tỉ lệ đồng thuận. Chốt nhãn cuối, giải thích mỗi ca bất đồng và chỉnh định nghĩa nếu đồng thuận dưới 80%. Chốt năm dòng khắc phục đủ năm loại với cách phát hiện đo được và vai trò phụ trách. | Quốc đã kiểm tra và xác nhận đủ 20 mã. Đã đối chiếu hai tài liệu, 20/20 mã trùng. Chưa có số đo đồng thuận độc lập. |
 | Khi nhóm làm D và E | Cùng nhóm rà phương án pilot, chỉ số và hồ sơ launch. Dự duyệt chéo, chốt phiếu chấm và báo cáo nhóm từ kết quả thực tế. | Đã có dự thảo và số liệu D1/E1. A/B đã đối chiếu. Hồ sơ hiện đề xuất No-go và đang chờ kết quả duyệt chéo. |
 | Khi có bằng chứng | Bổ sung email, đóng góp thực tế, tệp hoặc commit, cách Quốc tự kiểm tra phần dùng AI và tự đánh giá vào báo cáo này. Cập nhật đóng góp trong [TEAM.md](../../TEAM.md). | Đã điền email, dẫn chứng commit, khai báo công cụ và tự đánh giá. |
-| Khi nhóm chốt bài | Với vai trò trưởng nhóm, rà danh sách tệp và xác nhận commit nhóm đã đẩy lên GitHub. Dùng tài khoản cá nhân của Quốc nộp link repo lên LMS. | Chưa xác nhận bài nhóm đã chốt hoặc Quốc đã nộp LMS. |
+| Khi nhóm chốt bài | Rà danh sách tệp, xác nhận commit chốt và nộp link repo trên LMS bằng tài khoản cá nhân. | Đã kiểm đủ sáu tệp hồ sơ, báo cáo nhóm và bốn báo cáo cá nhân. Chương trình chạy hết, ba phép thử A1 đạt; YAML đọc được với bốn luật dừng. Mã bản chốt ghi trong [TEAM.md](../../TEAM.md). Chưa có biên nhận LMS. |
 
 Chi tiết từng checkpoint và yêu cầu nộp nằm trong [CHECKPOINTS.md](../../CHECKPOINTS.md) và [SUBMISSION.md](../../SUBMISSION.md).
-
-## Ghi nhanh bộ nhãn riêng
-
-Dùng [phiếu trắng CP3](../../docs/CP3_phieu_gan_nhan_trang.md) để đọc đủ 20 ca. Nếu ghi bằng ký hiệu, sao chép dòng dưới vào ghi chú riêng và điền một chữ cho mỗi ca theo thứ tự. Giữ riêng kết quả cho đến khi cả hai hoàn tất.
-
-A = Do người dùng, B = Hệ thống, C = Ngữ cảnh, D = Giới hạn hệ thống, E = Ngầm.
-
-```text
-01=__ 02=__ 03=__ 04=__ 05=__ 06=__ 07=__ 08=__ 09=__ 10=__
-11=__ 12=__ 13=__ 14=__ 15=__ 16=__ 17=__ 18=__ 19=__ 20=__
-```

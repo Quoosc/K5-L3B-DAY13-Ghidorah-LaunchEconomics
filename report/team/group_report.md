@@ -15,7 +15,7 @@ Báo cáo ngắn, tối đa 2 trang. Số liệu chi tiết nằm trong các fil
 ## 3. Giải pháp
 
 - A/B dùng trace và dữ liệu yêu cầu để tính chi phí, so với nhân viên tự làm và phân tích độ nhạy. Kết quả đã được đối chiếu với code chạy trên hai CSV. Chi tiết ở [bảng chi phí](bang_chi_phi.md).
-- Quốc đã xác nhận từng nhãn dựa trên bảng tham khảo. Đối chiếu theo mã với phiếu gốc của Dũng cho 20/20 ca trùng. Bảng nhóm ghi nguồn của hai phiếu và năm phương án khắc phục theo loại lỗi. Xem [bảng lỗi](bang_loi.md).
+- Quốc đã xác nhận từng nhãn dựa trên bảng tham khảo. Đối chiếu theo mã với phiếu gốc của Dũng cho 20/20 ca trùng. Chưa có số đo đồng thuận độc lập và đang chờ hướng dẫn của giảng viên cho tiêu chí này. Bảng nhóm có năm phương án khắc phục theo loại lỗi. Xem [bảng lỗi](bang_loi.md).
 - D đề xuất ngẫu nhiên theo nhân viên với đối chứng chạy cùng thời gian. Xem [kế hoạch pilot](pilot_plan.yaml).
 - E tính chỉ số từ CSV và thiết kế sự kiện để đo trong pilot. Xem [chỉ số](chi_so.md) và [hồ sơ launch](ho_so_launch_v0.md).
 

@@ -45,6 +45,8 @@ Năm biện pháp đề xuất từ các tình huống trong đề, để nhóm 
 
 ## Rà soát trước khi chốt CP3
 
+- [x] Đối chiếu theo mã 01–20: phiếu Quốc xác nhận từ bảng tham khảo trùng 20/20 với phiếu gốc của Dũng.
+- [x] Bảng đề xuất có năm loại lỗi, mỗi loại một ca với tín hiệu phát hiện đo được, biện pháp và vai trò phụ trách.
 - [ ] Hai bộ nhãn gốc có đủ ca 1–20 và được giữ nguyên sau khi đối chiếu.
 - [ ] Cột “Trùng?” so hai bộ nhãn gốc. Tỉ lệ đồng thuận từ 80% khi có ít nhất 16 ca trùng. Nếu thấp hơn, ghi định nghĩa đã chỉnh ở mục quy tắc phân biệt.
 - [ ] Cột “Nhãn thống nhất” có đủ 20 ca. Mỗi ca bất đồng có một câu giải thích cách phân biệt.
