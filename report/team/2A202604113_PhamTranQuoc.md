@@ -58,7 +58,16 @@ Xem [bảng chi phí](bang_chi_phi.md), [kế hoạch pilot](pilot_plan.yaml), [
 
 ### CP3 – Gắn nhãn độc lập (lượt bổ sung)
 
-Theo [rubric C3](../../RUBRIC.md#rubric), bảng đã có đủ năm loại lỗi, mỗi loại có tín hiệu phát hiện đo được và một vai trò phụ trách. Hồ sơ còn thiếu kết quả so **hai bộ nhãn độc lập** (ngưỡng đồng thuận 80%) và kết quả so với **đáp án chính thức** (ngưỡng 16/20). Đã chuẩn bị [tin nhắn xin hướng dẫn](../../docs/CP3_luot_bo_sung_tin_nhan.md). Nếu giảng viên duyệt bộ ca mới, em và Dũng sẽ lưu hai phiếu riêng, tính tỉ lệ đồng thuận trước khi trao đổi và ghi kết quả ở [mục lượt bổ sung](bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung).
+**Xác nhận của Phạm Trấn Quốc.** Em đã rà và xác nhận đủ 20 nhãn trên phiếu tham khảo. Em xác nhận kết quả đối chiếu theo mã với phiếu Dũng là 20/20 ca trùng và dùng kết quả này trong báo cáo nộp Lab 13.
+
+| Hạng mục theo rubric C3 | Bằng chứng và trạng thái |
+| --- | --- |
+| Đối chiếu 20 ca | [Phiếu em xác nhận](../../docs/CP3_phieu_PhamTranQuoc.md) trùng **20/20** với [phiếu gốc của Dũng](../../docs/CP3_phieu_TranAnhDung.md). Đây là kết quả đối chiếu tham khảo theo mã ca, ghi tại commit `9c02779`. |
+| Khắc phục lỗi | [Bảng khắc phục](bang_loi.md#bảng-khắc-phục-cho-5-ca-mỗi-loại-một-ca) có đủ năm loại lỗi, mỗi dòng nêu dấu hiệu đo được, biện pháp và vai trò phụ trách. |
+| Đồng thuận độc lập từ 80% | Đã có phiếu gốc của Dũng. Chưa tìm thấy phiếu em lập trước khi xem tham khảo, nên chưa có tỷ lệ đồng thuận độc lập. |
+| Khớp đáp án chính thức từ 16/20 | Chưa có kết quả đối chiếu với đáp án chính thức của giảng viên. |
+
+Đã chuẩn bị [tin nhắn xin hướng dẫn](../../docs/CP3_luot_bo_sung_tin_nhan.md). Nếu giảng viên duyệt bộ ca mới, em và Dũng sẽ lưu riêng hai phiếu gốc, tính tỷ lệ đồng thuận trước khi trao đổi và lưu kết quả ở [mục lượt bổ sung](bang_loi.md#cp3--gắn-nhãn-độc-lập-lượt-bổ-sung). Mức khớp đáp án được ghi riêng khi có đáp án chính thức. [Rubric C3](../../RUBRIC.md#rubric)
 
 ## 5. Công cụ AI đã dùng
 

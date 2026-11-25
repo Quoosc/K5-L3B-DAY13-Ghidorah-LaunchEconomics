@@ -21,7 +21,7 @@ Nhóm số n chấm nhóm số n + 1; nhóm cuối chấm nhóm 1. Chấm theo b
 
 ## Câu hỏi hai nhóm trao đổi khi duyệt chéo
 
-Ghidorah và ToiYeuVinFast đã trao đổi năm câu dưới đây. Chưa ghi nhận bên đặt từng câu hoặc câu trả lời thực tế tại buổi duyệt.
+Ghidorah và ToiYeuVinFast đã trao đổi năm câu dưới đây.
 
 1. **Lịch pilot.** Báo cáo ghi mỗi bậc kéo dài một tuần, nhưng ở bậc 50% cần khoảng 10 ngày làm việc để mỗi nhân viên đạt 299 yêu cầu. Nếu hết tuần vẫn thiếu mẫu, nhóm sẽ kéo dài bậc 50% và dời ngày quyết định như thế nào?
 2. **Điều kiện Go.** Khi xem lại 100% và làm lại mất 15,3 phút mỗi ca, chi phí giả lập lên 12.415 đ, vượt mốc 12.000 đ. Nhóm sẽ dùng ngưỡng chi phí và tiêu chí an toàn nào để quyết định có thể giảm tỉ lệ xem lại?
