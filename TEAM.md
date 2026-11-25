@@ -28,7 +28,7 @@
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Bằng chứng tự kiểm tra của Quang Anh, xác nhận trao đổi log riêng, hai bộ nhãn, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ xác nhận.
+**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Quang Anh đã kiểm tra lại và xác nhận kết quả khớp với các số đối chiếu. Việc trao đổi log riêng, hai bộ nhãn, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -56,7 +56,7 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Tính tay ít nhất một con số để đối chiếu; rà số liệu A/B; sau giải lao tiếp nhận, chạy lại hoặc hoàn thiện code và phối hợp với nhóm ở D/E.
 
-**Tiến độ và bằng chứng.** [Báo cáo cá nhân](report/team/2A202604120_NguyenQuocQuangAnh.md) ghi phép tính tiền tool từ CSV, mốc so sánh A/B và kết quả chạy lại do Codex hỗ trợ. Số đã đối chiếu được cập nhật vào bảng chi phí, phần rủi ro E2 và hồ sơ launch. Quang Anh bổ sung kết quả tự tính, tự chạy và bằng chứng bàn giao sau khi thực hiện.
+**Tiến độ và bằng chứng.** [Báo cáo cá nhân](report/team/2A202604120_NguyenQuocQuangAnh.md) ghi phép tính tiền tool từ CSV, mốc so sánh A/B và kết quả chạy lại do Codex hỗ trợ. Đã kiểm tra lại và xác nhận kết quả khớp. Số đã đối chiếu được cập nhật vào bảng chi phí, phần rủi ro E2 và hồ sơ launch.
 
 ### Trần Anh Dũng — 2A202604037
 
