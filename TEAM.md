@@ -66,4 +66,4 @@ Phạm Trấn Quốc đã rà soát hồ sơ và kiểm tra đủ 20 ca trên [p
 
 **Đóng góp cần thực hiện:** Điền dần `report/team/ho_so_launch_v0.md`; gắn nhãn độc lập 20 ca ở CP3; phối hợp hoàn thiện bảng lỗi và hồ sơ cuối.
 
-**Tiến độ và bằng chứng:** Đã hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi tại [CP3_phieu_TranAnhDung.md](docs/CP3_phieu_TranAnhDung.md) (commit `97505fa`), cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md), phần rủi ro E2 trong [chỉ số](report/team/chi_so.md) và lập [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md). Đang chờ bộ nhãn độc lập của Quốc để đối chiếu CP3 vào [bảng lỗi](report/team/bang_loi.md) và chốt hồ sơ trước 17:00.
+**Tiến độ và bằng chứng:** Đã hoàn thành phiếu gắn nhãn độc lập 20 ca lỗi tại [CP3_phieu_TranAnhDung.md](docs/CP3_phieu_TranAnhDung.md) (commit `97505fa`), cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md) và bảng rủi ro E2 trong [chỉ số](report/team/chi_so.md) (commit `0fc3bbe`), đối chiếu 20/20 ca trong [bảng lỗi](report/team/bang_loi.md), hoàn thiện [báo cáo cá nhân](report/team/2A202604037_TranAnhDung.md) và chạy kiểm tra cuối buổi (`lab13.py`, `pilot_plan.yaml`, nhãn `simulated`, quy tắc 5).
