@@ -15,20 +15,20 @@
 | --: | --------------------- | ----------- | -------------------------- | ------------- | ----------------------------------------------- |
 |   1 | Phạm Trấn Quốc        | 2A202604113 | Chưa cập nhật              | Quoosc        | Người gắn nhãn 1; trưởng nhóm                   |
 |   2 | Trương Văn Phong      | 2A202604091 | 26ai.phongtv@vinuni.edu.vn | vanphong205   | Người viết code ở nửa đầu buổi                  |
-|   3 | Nguyễn Quốc Quang Anh | 2A202604120 |                            |               | Người kiểm số; nhận phần viết code sau giải lao |
+|   3 | Nguyễn Quốc Quang Anh | 2A202604120 | nguyenquocquanganh28@gmail.com | QuangAnh28 | Người kiểm số; nhận phần viết code sau giải lao |
 |   4 | Trần Anh Dũng         | 2A202604037 | Chưa cập nhật              | Chưa cập nhật | Người gắn nhãn 2, kiêm giữ hồ sơ                |
 
 ### Phạm vi công việc theo vai
 
 - **Phạm Trấn Quốc — người gắn nhãn 1:** mở [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md), tạo một bản riêng và ghi đủ 20 nhãn trong 8 phút. Khi cả hai đã hoàn tất, nhận bộ nhãn gốc của Dũng, đối chiếu và lưu kết quả trong [bảng lỗi](report/team/bang_loi.md). Ghi đóng góp thực tế và bằng chứng vào [báo cáo cá nhân](report/team/2A202604113_PhamTranQuoc.md).
 - **Trần Anh Dũng — người gắn nhãn 2, kiêm giữ hồ sơ:** mở cùng [phiếu trắng CP3](docs/CP3_phieu_gan_nhan_trang.md) nhưng làm trên bản riêng trong 8 phút. Khi cả hai đã hoàn tất, gửi Quốc đủ 20 cặp mã ca và nhãn để đối chiếu. Cập nhật [hồ sơ launch](report/team/ho_so_launch_v0.md) khi có bằng chứng.
-- **Trương Văn Phong — người viết code A/B:** mở [lab13.py](src/lab13.py#L20). Bắt đầu ở `TODO CP1` với `so_lan_chay_ky_vong()` và hai hàm A1 còn lại, rồi làm A2–A4 và `TODO CP2` cho B. Chạy `python lab13.py` từ `src/`, điền [bảng chi phí](report/team/bang_chi_phi.md) và bàn giao commit cùng log chạy cho Quang Anh.
+- **Trương Văn Phong — người viết code A/B:** code A/B có ở commit `dc8e753`. Xem [bảng chi phí](report/team/bang_chi_phi.md) và kết quả chạy được ghi trong [báo cáo của Phong](report/team/2A202604091_TruongVanPhong.md). Phong phụ trách bàn giao commit cùng log chạy cho Quang Anh.
 - **Nguyễn Quốc Quang Anh — người kiểm số và nhận code:** mở [bảng chi phí](report/team/bang_chi_phi.md) và [công thức](docs/du_lieu_va_cong_thuc.md). Tính tay ít nhất một số A/B, ghi công thức, đầu vào và kết quả vào báo cáo cá nhân. Đối chiếu với bảng và log của Phong, sau đó nhận [code A/B](src/lab13.py) và chạy lại trên máy của mình.
 - **Cả nhóm:** cùng hoàn thiện [pilot](report/team/pilot_plan.yaml), [chỉ số](report/team/chi_so.md), [phiếu duyệt chéo](report/team/phieu_cham.md) và [báo cáo nhóm](report/team/group_report.md). Gắn nhãn `simulated` cho mọi số dùng cột `_simulated`.
 
 Quốc và Dũng chỉ mở phần tham khảo và so nhãn sau khi cả hai đã hoàn tất hai bộ nhãn riêng. Giữ nguyên hai bộ gốc khi nhập kết quả.
 
-**Trạng thái bàn giao:** D1/E1 chạy được riêng. Luồng chính hiện dừng ở phép thử A1 đầu tiên với `NotImplementedError` tại `so_lan_chay_ky_vong()`. Hai bộ nhãn, đóng góp cá nhân của Quốc, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ bằng chứng.
+**Trạng thái bàn giao.** Commit A/B `dc8e753` đã có trong nhánh local tại `1fd01ef`. Ngày 25/11/2026, Codex đã tính lại tiền tool từ CSV và chạy `lab13.py` từ đầu đến cuối trên máy, đạt cả ba phép thử A1. Kết quả A/B, D1 và E1 đã được đối chiếu. Bằng chứng tự kiểm tra của Quang Anh, xác nhận trao đổi log riêng, hai bộ nhãn, kết quả hội đồng, xác nhận đủ nhân lực và nộp LMS đang chờ xác nhận.
 
 ## Báo cáo đóng góp cá nhân
 
@@ -56,7 +56,7 @@ Mỗi thành viên tạo một file theo mẫu `report/team/MSSV_HoTen.md` (khô
 
 **Đóng góp cần thực hiện:** Tính tay ít nhất một con số để đối chiếu; rà số liệu A/B; sau giải lao tiếp nhận, chạy lại hoặc hoàn thiện code và phối hợp với nhóm ở D/E.
 
-**Bằng chứng cần ghi:** Phép tính tay và kết quả đối chiếu; commit và phần code/bảng đã thực hiện; công cụ AI đã dùng và cách tự kiểm tra (nếu có).
+**Tiến độ và bằng chứng.** [Báo cáo cá nhân](report/team/2A202604120_NguyenQuocQuangAnh.md) ghi phép tính tiền tool từ CSV, mốc so sánh A/B và kết quả chạy lại do Codex hỗ trợ. Số đã đối chiếu được cập nhật vào bảng chi phí, phần rủi ro E2 và hồ sơ launch. Quang Anh bổ sung kết quả tự tính, tự chạy và bằng chứng bàn giao sau khi thực hiện.
 
 ### Trần Anh Dũng — 2A202604037
 

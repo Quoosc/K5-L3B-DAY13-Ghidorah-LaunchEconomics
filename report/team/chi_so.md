@@ -44,5 +44,5 @@
 
 | Rủi ro | Tác động đã tính | Dấu hiệu theo dõi | Hành động | Người phụ trách |
 | --- | --- | --- | --- | --- |
-| Tần suất làm lại tăng | Chờ giá trị kịch bản B1 trong `bang_chi_phi.md`. | Tỉ lệ yêu cầu có lần làm lại theo loại và theo tuần. | Phân tích nguyên nhân theo loại trước khi mở rộng pilot. | PM trợ lý hoàn phí |
-| Phải xem lại toàn bộ kéo dài | Chờ hai giả định thời gian làm lại của B4 trong `bang_chi_phi.md`. | Phần trăm yêu cầu có người xem lại, số phút xem lại thực đo, theo tuần. | Giữ mức triển khai cho đến khi biết thời gian xem lại và chất lượng đầu ra đủ ổn định. | Trưởng nhóm CSKH |
+| Tần suất làm lại tăng | B1: Làm lại gấp đôi làm chi phí tăng từ 4.472 lên 6.787 đ/việc thành công (+51,8%) [simulated]. | Tỉ lệ yêu cầu có lần làm lại theo loại và theo tuần. | Phân tích nguyên nhân theo loại trước khi mở rộng pilot. | PM trợ lý hoàn phí |
+| Phải xem lại toàn bộ kéo dài | B4: Xem lại 100% trong phạm vi nội địa và hàng nặng tốn 11.743 đ/việc nếu làm lại mất 9 phút, hoặc 12.415 đ/việc nếu mất 15,3 phút, so với mốc 12.000 đ [simulated]. | Phần trăm yêu cầu có người xem lại, số phút xem lại thực đo, theo tuần. | Giữ mức triển khai cho đến khi biết thời gian xem lại và chất lượng đầu ra đủ ổn định. | Trưởng nhóm CSKH |
